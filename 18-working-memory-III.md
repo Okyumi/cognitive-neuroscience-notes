@@ -11,7 +11,7 @@
 - Graph interpretation: if a neuron likes the sample, the firing rate during the delay should be elevated. A neuron likes the sample – solid line; a neuron hates the sample – dash line.
 - The experimenter contrasted the stimulus repetition and WM.
 
-![Left: Schematic of standard and ABBA trial structures. Standard trials: sample → multiple nonmatching test items → matching test. ABBA trials: sample → nonmatch → nonmatch → repeated nonmatch (a.k.a. 2nd B in ABBA) → nonmatch → match. 0.5 sec stimulus presentation, 1 sec delays. Right: Line graph of spikes per second over time from sample onset (0–8000 ms), comparing activity following best sample (solid line) vs. worst sample (dashed line). Shaded regions indicate sample, nonmatch, nonmatch, nonmatch, nonmatch, match periods.](images/pdf2-232.ppm)
+![Left: Schematic of standard and ABBA trial structures. Standard trials: sample → multiple nonmatching test items → matching test. ABBA trials: sample → nonmatch → nonmatch → repeated nonmatch (a.k.a. 2nd B in ABBA) → nonmatch → match. 0.5 sec stimulus presentation, 1 sec delays. Right: Line graph of spikes per second over time from sample onset (0–8000 ms), comparing activity following best sample (solid line) vs. worst sample (dashed line). Shaded regions indicate sample, nonmatch, nonmatch, nonmatch, nonmatch, match periods.](images/pdf2-232.png)
 
 - **Neurons in IT responded to stimulus repetition (i.e., 2nd B in ABBA trials) and not just WM.**
   - Behaviorally irrelevant repeat.
@@ -34,7 +34,7 @@
 - Successful ability to classify new trials means that the pattern of activity contains meaningful information.
 - The key measure is "classifier accuracy": whether or not it is above chance.
 
-![Diagram illustrating MVPA: a brain with visual cortex highlighted, showing avg BOLD activity columns (green, blue, purple) each with 3×3 voxel patterns. The three patterns correspond to a face stimulus, a scene stimulus, and an unknown/test stimulus ("???"). MVPA uses the spatial pattern of BOLD activity to classify which item is being maintained.](images/pdf2-233.ppm)
+![Diagram illustrating MVPA: a brain with visual cortex highlighted, showing avg BOLD activity columns (green, blue, purple) each with 3×3 voxel patterns. The three patterns correspond to a face stimulus, a scene stimulus, and an unknown/test stimulus ("???"). MVPA uses the spatial pattern of BOLD activity to classify which item is being maintained.](images/pdf2-233.png)
 
 ---
 
@@ -43,14 +43,14 @@
 - **Task:** encode either color or orientation and store in WM.
   Feature: orientation & color.
 
-![Stimuli used in the MVPA WM task: grating stimuli shown at Sample (1 s), Delay (10 s), and Test (1 s) phases, with ITI (10 s). Stimuli have both orientation and color features, but participants are told to remember only one.](images/pdf2-234.ppm)
+![Stimuli used in the MVPA WM task: grating stimuli shown at Sample (1 s), Delay (10 s), and Test (1 s) phases, with ITI (10 s). Stimuli have both orientation and color features, but participants are told to remember only one.](images/pdf2-234.png)
 
 - **Logic:** if MVPA can decode the specific maintained orientation/color from delay activity, then there is strong evidence for the storage of specific WM features.
 - **Result:** classifier could correctly guess only the relevant feature from the pattern of delay activity in visual cortex. WM features are stored in patterns of activity in the visual cortex.
   - Even though the stimulus could have an orientation and a color, the classifier could not tell the irrelevant feature.
 - Subsequently shown that memory decoding in the visual cortex is successful despite the presence of a distracting item.
 
-![Left: Bar graph (a) of WM Delay classification accuracy for Orientation and Color stimulus features, with separate bars for "Remember Orientation" (red) and "Remember Color" (teal). Chance level indicated at ~0.5. Classifier accurately decodes only the relevant feature. Right: Timeline diagram showing sample (0.5s) → delay 1 (9.5s) → distractor (0.5s) → delay 2 (9.5s) → method-of-adjustment response (4.0s), with grating stimuli at each point.](images/pdf2-235.ppm)
+![Left: Bar graph (a) of WM Delay classification accuracy for Orientation and Color stimulus features, with separate bars for "Remember Orientation" (red) and "Remember Color" (teal). Chance level indicated at ~0.5. Classifier accurately decodes only the relevant feature. Right: Timeline diagram showing sample (0.5s) → delay 1 (9.5s) → distractor (0.5s) → delay 2 (9.5s) → method-of-adjustment response (4.0s), with grating stimuli at each point.](images/pdf2-235.png)
 
 - **Though this is the early visual cortex rather than IT, the study could serve as a rebuttal to the idea of dumb IT.**
   - Visual regions can store information in WM: the visual cortex still holds on to the orientation they saw before despite the disruption from randomly other orientations.
@@ -80,7 +80,7 @@
 - **Alternative:** when we take away the faces, the neurons no longer fire, but they change their connection strength.
 - **Activity silent:** temporary changes in connection strengths between tuned neurons.
 
-![Diagram illustrating activity-silent WM: two sets of neurons (left: connected network with strong synapses; right: a simpler two-neuron representation). In activity-silent storage, the information is maintained through temporarily strengthened synaptic weights rather than persistent firing.](images/pdf2-236.ppm)
+![Diagram illustrating activity-silent WM: two sets of neurons (left: connected network with strong synapses; right: a simpler two-neuron representation). In activity-silent storage, the information is maintained through temporarily strengthened synaptic weights rather than persistent firing.](images/pdf2-236.png)
 
 - **Pros:**
   - Less metabolically demanding.
@@ -102,7 +102,7 @@
 - **Better performance on validly retro-cued items relative to invalidly retro-cued items or neutral trials.**
   - → Retroactively change the strength (either boosting or dampening the memory) of items within the memory.
 
-![Diagram of the retro-cue experiment: (a) retro-cue condition — sample display (two colored squares) → blank → retro-cue (arrow indicating one item) → blank → probe display (color wheel with test square); (b) neutral-cue condition — sample display → blank → uninformative stimulus (asterisk) → blank → probe display.](images/pdf2-237.ppm)
+![Diagram of the retro-cue experiment: (a) retro-cue condition — sample display (two colored squares) → blank → retro-cue (arrow indicating one item) → blank → probe display (color wheel with test square); (b) neutral-cue condition — sample display → blank → uninformative stimulus (asterisk) → blank → probe display.](images/pdf2-237.png)
 
 - The experiment is significant as it shows that we can do something to the memory after it is done. (It is trivial to inform ahead of time as people can pay more attention to the one and dedicate more resources in WM during encoding.)
 - **Evidence for different states in WM?**

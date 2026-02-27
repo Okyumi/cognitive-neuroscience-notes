@@ -5,7 +5,7 @@
 ---
 
 > **Paper 9:** Mnemonic Coding of Visual Space in the Monkey's Dorsolateral Prefrontal Cortex
-> *(논문9：猴子的背外侧前额叶皮层的视觉空间的记忆编码 — Mnemonic Coding of Visual Space in the Monkey's Dorsolateral Prefrontal Cortex)*
+> *(논文9：猴子的背外侧前额叶皮层的视觉空间的记忆编码 — Mnemonic Coding of Visual Space in the Monkey's Dorsolateral Prefrontal Cortex)*
 
 ---
 
@@ -27,7 +27,7 @@ The direction brings about the **specificity** of each neuron and thus gives ris
 The top figure depicts the timing of presentation of the fixation target, peripheral cues, and reward.
 The bottom figure illustrates the records of horizontal and vertical eye movements and single-neuron activity on a typical trial of the oculomotor delayed-response task.
 
-![Figure A: Oculomotor delayed-response task timeline diagram showing ITI, F (fixation target), C (peripheral cue), D (delay), and R (reward) events for fixation target, peripheral cue, and reward traces. Figure B: An example of an oculomotor delayed-response trial showing horizontal gaze coordinate, vertical gaze coordinate, and neuron activity traces across ITI, F, C, D, and R epochs (1 sec scale bar, 10° scale bar).](images/pdf2-186.jpg)
+![Figure A: Oculomotor delayed-response task timeline diagram showing ITI, F (fixation target), C (peripheral cue), D (delay), and R (reward) events for fixation target, peripheral cue, and reward traces. Figure B: An example of an oculomotor delayed-response trial showing horizontal gaze coordinate, vertical gaze coordinate, and neuron activity traces across ITI, F, C, D, and R epochs (1 sec scale bar, 10° scale bar).](images/pdf2-186.png)
 
 **Question:** Why are there certain degrees of firing during the ITI (internal interval)?
 The neuron activity could result from eye movement, or this neuron is inhibited by fixation. There is no definite answer, and it is not important. The important part is that the neuron activity remained elevated during the delay period.
@@ -40,7 +40,7 @@ The neuron activity could result from eye movement, or this neuron is inhibited 
 
 Although the distribution of saccade endpoints is wider in the delay task than in the visually guided saccade task, nearly all saccades end near the appropriate location, even with 6-s delays. *(Also mentioned in Effects of Different Delay Durations)*
 
-![Three scatter plots of saccade endpoints: (A) Visually guided saccade, (B) 3.0 s delay, (C) 6.0 s delay. Each plot shows a 20° × 20° grid with clusters of endpoints near the target locations. The distribution widens with longer delays but endpoints remain clustered near correct positions.](images/pdf2-187.jpg)
+![Three scatter plots of saccade endpoints: (A) Visually guided saccade, (B) 3.0 s delay, (C) 6.0 s delay. Each plot shows a 20° × 20° grid with clusters of endpoints near the target locations. The distribution widens with longer delays but endpoints remain clustered near correct positions.](images/pdf2-187.png)
 
 **Critique:** The graphs did not indicate the accuracy (could be either 100% or 0% correct). The graphs are just distributions of eye positions.
 **Critique:** The measurements are not ideal. They could record many quantitative data from the coordinates, but they just turned the result into qualitative. *(Here and also after, noted as "losing data".)*
@@ -81,11 +81,11 @@ Of the 87 PS neurons with the delay period, 69 (79%) were directional, i.e., a s
 The row of the raster: each trial.
 Histogram: directional excitatory activity → storage.
 
-![Raster plots and histograms showing directional activity in a PS neuron tested with eight cue directions (0°, 45°, 90°, 135°, 180°, 225°, 270°, 315°). Strong tonic activity appeared throughout the delay only when the cue was presented at the downward (270°) location.](images/pdf2-206.ppm)
+![Raster plots and histograms showing directional activity in a PS neuron tested with eight cue directions (0°, 45°, 90°, 135°, 180°, 225°, 270°, 315°). Strong tonic activity appeared throughout the delay only when the cue was presented at the downward (270°) location.](images/pdf2-206.png)
 
 The figure above shows directional activity in a PS neuron tested with eight cue directions. Strong tonic activity appeared throughout the activity only when the cue was presented at the downward (270°) location.
 
-![Raster plots and histograms showing a PS neuron with inhibitory directional delay period activity: the neuron was suppressed during the delay period only when the cue had been presented in the upper location.](images/pdf2-207.ppm)
+![Raster plots and histograms showing a PS neuron with inhibitory directional delay period activity: the neuron was suppressed during the delay period only when the cue had been presented in the upper location.](images/pdf2-207.png)
 
 Neurons with only inhibitory activity during the delay period could also be directional. The figure above shows a neuron that was suppressed during the delay period only when the cue had been presented in the upper location.
 
@@ -95,7 +95,7 @@ Neurons with only inhibitory activity during the delay period could also be dire
 
 ### Omnidirectional Neurons
 
-![Raster plots and histograms for an omnidirectional neuron: tonic excitatory delay periods for all locations were significantly above the ITI rate and the slight differences between locations were not statistically significant.](images/pdf2-208.ppm)
+![Raster plots and histograms for an omnidirectional neuron: tonic excitatory delay periods for all locations were significantly above the ITI rate and the slight differences between locations were not statistically significant.](images/pdf2-208.png)
 
 The figure on the left shows an omnidirectional neuron whose tonic excitatory delay periods for all locations were significantly above the ITI rate and the slight differences between locations were not statistically significant.
 
@@ -115,7 +115,7 @@ A neuron was classified as excitatory (or inhibitory) if the delayed period rate
 | Inhibition | 23 | 14 | 37 |
 | **Total** | **69** | **18** | **87** |
 
-![Polar plots (A–F) showing tuning curves for individual PS neurons during the delay period. Each plot shows 8 directions with radial bars indicating the standard deviation of delay period discharge and asterisks marking statistically significant departures from ITI rates. The radius of the circle = the baseline (ITI) rate.](images/pdf2-209.ppm)
+![Polar plots (A–F) showing tuning curves for individual PS neurons during the delay period. Each plot shows 8 directions with radial bars indicating the standard deviation of delay period discharge and asterisks marking statistically significant departures from ITI rates. The radius of the circle = the baseline (ITI) rate.](images/pdf2-209.png)
 
 | Symbol/Label | Meaning |
 |---|---|
@@ -132,7 +132,7 @@ A neuron was classified as excitatory (or inhibitory) if the delayed period rate
 
 ### Distribution of Preferred Directions (首选方向的分布)
 
-![Two polar histograms: (Left) "Distribution of best cue directions for excitatory delay activity (n=46)" — showing the number of neurons preferring each of the 8 directions. The majority of neurons prefer contralateral directions (left side of plot). (Right) "Distribution of best cue directions for inhibitory delay activity (n=23)" — showing a similar contralateral bias but without statistical significance.](images/pdf2-214.ppm)
+![Two polar histograms: (Left) "Distribution of best cue directions for excitatory delay activity (n=46)" — showing the number of neurons preferring each of the 8 directions. The majority of neurons prefer contralateral directions (left side of plot). (Right) "Distribution of best cue directions for inhibitory delay activity (n=23)" — showing a similar contralateral bias but without statistical significance.](images/pdf2-214.png)
 
 The majority of neurons with **excitatory** directional delay period activity had preferred directions (statistically significant) on the side **contralateral** to the hemisphere recorded from.
 
@@ -144,7 +144,7 @@ There is no statistical significance in the directional preference of inhibitory
 
 ### Time Course of Delayed Activity (延迟期活动的时间过程)
 
-![Four composite histograms (A–D) showing the time course of PS neuron activity across the delay period. A: Excitatory delay activity averaged across all preferred directions. B: Excitatory activity in the post-delay saccade period. C: Inhibitory delay activity averaged across all preferred directions. D: Inhibitory activity in the post-delay saccade period. Each histogram spans approximately 1 second (A, C) or 0.5 seconds (B, D) with 20 s/s scale bars.](images/pdf2-215.ppm)
+![Four composite histograms (A–D) showing the time course of PS neuron activity across the delay period. A: Excitatory delay activity averaged across all preferred directions. B: Excitatory activity in the post-delay saccade period. C: Inhibitory delay activity averaged across all preferred directions. D: Inhibitory activity in the post-delay saccade period. Each histogram spans approximately 1 second (A, C) or 0.5 seconds (B, D) with 20 s/s scale bars.](images/pdf2-215.png)
 
 Although individual neurons have a variety of temporal changes during the delay period, these composite histograms indicate that overall PS neuron activity is well-maintained during a 3-s delay.
 
@@ -158,9 +158,9 @@ The composite history depicts a phasic increase in activity during the response 
 
 Varying the delay length over different values had little effects on delay period activity. In particular, the directional preference was unchanged and the duration of excitation or inhibition expanded with longer delays.
 
-![Raster plots and histograms for neuron 5018 across four cue directions (0°, 90°, 180°, 270°) under two delay conditions (A: 3 s delay; B: 1 s delay), showing that directional preference and discharge pattern remain similar across delay durations.](images/pdf2-216.ppm)
+![Raster plots and histograms for neuron 5018 across four cue directions (0°, 90°, 180°, 270°) under two delay conditions (A: 3 s delay; B: 1 s delay), showing that directional preference and discharge pattern remain similar across delay durations.](images/pdf2-216.png)
 
-![Three raster/histogram panels for neuron 5070 showing delay activity at 3-s (A), 3-s (B), and 10-s (C) delays. The activity during the first 1.5s of the delay is very similar in all three conditions — little or no change in activity relative to the preceding fixation interval. The activity in the next 1.5s of the delay period is the same in the 3-s and 6-s delay conditions, both showing a gradual increase in the activity.](images/pdf2-217.ppm)
+![Three raster/histogram panels for neuron 5070 showing delay activity at 3-s (A), 3-s (B), and 10-s (C) delays. The activity during the first 1.5s of the delay is very similar in all three conditions — little or no change in activity relative to the preceding fixation interval. The activity in the next 1.5s of the delay period is the same in the 3-s and 6-s delay conditions, both showing a gradual increase in the activity.](images/pdf2-217.png)
 
 The activity during the first 1.5s of the delay is very similar in all three conditions, that is little or no change in activity relative to the preceding fixation interval.
 
@@ -172,9 +172,9 @@ The activity in the next 1.5s of the delay period is the same in the 3-s and 6-s
 
 Responses of PS neurons during the delay period were significantly weaker when the monkey made an error during the response period.
 
-![Raster plots for neurons 5018 and 5111 comparing correct trials vs. error trials. On trials in which an error was made, the neuron's discharge either ceased about midway through the delay period or was totally absent.](images/pdf2-222.ppm)
+![Raster plots for neurons 5018 and 5111 comparing correct trials vs. error trials. On trials in which an error was made, the neuron's discharge either ceased about midway through the delay period or was totally absent.](images/pdf2-222.png)
 
-![Two composite histograms (A: correct trials, B: error trials) for excitatory directional delay period activity. The delay period activity on the correct trials was significantly greater than activity on the error trials.](images/pdf2-223.ppm)
+![Two composite histograms (A: correct trials, B: error trials) for excitatory directional delay period activity. The delay period activity on the correct trials was significantly greater than activity on the error trials.](images/pdf2-223.png)
 
 On trials in which an error was made, the neuron's discharge either ceased about midway through the delay period or was totally absent.
 The delay period activity on the correct trials was significantly greater than activity on the error trials.
@@ -187,7 +187,7 @@ The delay period activity on the correct trials was significantly greater than a
 
 ### Directional and Omnidirectional Delay Period Activity in the Frontal Eye Fields (前额叶眼区的方向性和全向性延迟性活动)
 
-![Firing patterns of FEF neurons: (A) polar plot of delay activity, (B-D) raster plots and histograms for the FEF neuron at different directions (95° preferred, 225° suppressed). (C) Shows tonic excitation during the delay period and also presaccadic excitation at the time of response when the monkey made saccadic eye movements to the preferred direction. (E) Shows suppressed delay activity at the opposite direction.](images/pdf2-224.ppm)
+![Firing patterns of FEF neurons: (A) polar plot of delay activity, (B-D) raster plots and histograms for the FEF neuron at different directions (95° preferred, 225° suppressed). (C) Shows tonic excitation during the delay period and also presaccadic excitation at the time of response when the monkey made saccadic eye movements to the preferred direction. (E) Shows suppressed delay activity at the opposite direction.](images/pdf2-224.png)
 
 (From C:) This FEF neuron showed tonic excitation during the delay period and also exhibited presaccadic excitation at the time of response when the monkey made saccadic eye movements to the cue location which was the neuron's preferred direction for the delay period activity.
 
@@ -197,7 +197,7 @@ Like some PS neurons, the delay period activity was suppressed when the cue was 
 
 ### Cortical Distribution of Neurons with Directional and Omnidirectional Delay Period Activity in the Prefrontal Cortex (前额叶皮层中具有方向性和全向性延迟期活动的神经元的皮层分布)
 
-![Maps of the prefrontal cortex surface from 5 hemispheres (3L, 3R, 5L, 5R, 2R), with filled squares (Directional Activity), filled circles (Omnidirectional Activity), and filled triangles (Both) marking the recorded neuron locations. No clear clustering or localization is apparent.](images/pdf2-225.ppm)
+![Maps of the prefrontal cortex surface from 5 hemispheres (3L, 3R, 5L, 5R, 2R), with filled squares (Directional Activity), filled circles (Omnidirectional Activity), and filled triangles (Both) marking the recorded neuron locations. No clear clustering or localization is apparent.](images/pdf2-225.png)
 
 The researchers were unable to discern any clear localization or clustering of neurons with directional and omnidirectional delay period activity.
 
@@ -226,7 +226,7 @@ This experiment allows people to disentangle the two different coding.
 
 The experimenter added a visually guided saccade. In this regard, planning a saccade during the delay will be useless because the subjects have to move his/her eyes else first.
 
-![Diagram of an experiment with four transformation conditions (Same location, Mirror across horizontal meridian, Mirror across vertical meridian, Mirror across both meridians), each showing a visually cued location → delay → visually guided saccade → memory saccade → feedback sequence (timings: 0.3s, 10.5s, ~1.4s, 0.5s). This design allows disentangling retrospective memory coding from prospective action planning.](images/pdf2-226.ppm)
+![Diagram of an experiment with four transformation conditions (Same location, Mirror across horizontal meridian, Mirror across vertical meridian, Mirror across both meridians), each showing a visually cued location → delay → visually guided saccade → memory saccade → feedback sequence (timings: 0.3s, 10.5s, ~1.4s, 0.5s). This design allows disentangling retrospective memory coding from prospective action planning.](images/pdf2-226.png)
 
 This experiment allows people to disentangle the two different coding. The experimenter added a visually guided saccade. In this regard, planning a saccade during the delay will be useless because the subjects have to move his/her eyes else first.
 
@@ -236,4 +236,4 @@ The boundary of attention and WM gets fuzzy.
 
 The disassociation will be potentially important as long as it is important in the brain.
 
-![Additional figure related to the retrospective vs. prospective coding experiment, showing further conditions or results](images/pdf2-227.ppm)
+![Additional figure related to the retrospective vs. prospective coding experiment, showing further conditions or results](images/pdf2-227.png)

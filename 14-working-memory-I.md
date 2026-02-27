@@ -10,7 +10,7 @@
   - It is a core cognitive function that facilitates our reasons, plans, communications, etc.
 - Analogy: *etch sketch board*: fragile, limited to capacity and resolution.
 
-![An etch-a-sketch board used as an analogy for working memory — fragile, limited in capacity and resolution](images/pdf2-076.jpg)
+![An etch-a-sketch board used as an analogy for working memory — fragile, limited in capacity and resolution](images/pdf2-076.png)
 
 - **Actively represent:**
   - Active: repeated rehearsal.
@@ -70,7 +70,7 @@
 
 - **Span tasks: (simple vs. complex span)**
 
-![Diagram illustrating simple span task: sample (500 ms) → delay (2000 ms) → probe (500 ms) → match or nonmatch response; vs. complex span: a series of stimuli culminating in a reproduce-letter-sequence response](images/pdf2-081.ppm)
+![Diagram illustrating simple span task: sample (500 ms) → delay (2000 ms) → probe (500 ms) → match or nonmatch response; vs. complex span: a series of stimuli culminating in a reproduce-letter-sequence response](images/pdf2-081.png)
 
 - **Simple span:**
   - Participants get a sample on the screen which has different shapes, then the sample disappears and there is a two-second delay. After that, there is a probe shown on the screen and the participants have to indicate whether something has changed. (Match vs. non-match)
@@ -94,11 +94,11 @@
   - Either too little or too much dopamine leads to low cognitive ability; there is an optimum (in the middle).
   - It turns out that the phenomenon above relates to WM span/capacity.
 
-![Two inverted-U graphs showing dopamine efficacy on x-axis and cognitive ability on y-axis. Left graph marks PD at too-little end and SZ/acute stress/amphetamines at too-much end, with optimal DA in the middle. Right graph shows low WM span at one end and high WM span at the other end of the same inverted-U curve.](images/pdf2-082.ppm)
+![Two inverted-U graphs showing dopamine efficacy on x-axis and cognitive ability on y-axis. Left graph marks PD at too-little end and SZ/acute stress/amphetamines at too-much end, with optimal DA in the middle. Right graph shows low WM span at one end and high WM span at the other end of the same inverted-U curve.](images/pdf2-082.png)
 
 (PET: see the amount of binding on the basal ganglia.)
 
-![PET brain scans comparing High Span vs. Low Span individuals, showing greater dopamine binding (brighter signal) in the basal ganglia of high-span individuals](images/pdf2-085.ppm)
+![PET brain scans comparing High Span vs. Low Span individuals, showing greater dopamine binding (brighter signal) in the basal ganglia of high-span individuals](images/pdf2-085.png)
 
   - We can give people dopamine, and if we do that, we can push people along this curve.
     - When you give dopamine to people with low/high WM span, their WM span is improved/worsened.
@@ -114,13 +114,13 @@
   - Binary response!
 - Simple span tests can tell us about how WM is organized when modifying into a color wheel.
 
-![Color wheel modification of simple span task: sample (500 ms) → delay (2000 ms) → response (untimed), where a color wheel allows participants to indicate the remembered color with a continuous response](images/pdf2-086.ppm)
+![Color wheel modification of simple span task: sample (500 ms) → delay (2000 ms) → response (untimed), where a color wheel allows participants to indicate the remembered color with a continuous response](images/pdf2-086.png)
 
 - Instead of a binary answer, we get a continuous measure of WM precision. (Measure the angular difference.)
   - Confounds: perception differences, vision, motor difficulties, etc.
   - It is better to set a baseline for individuals by doing a trial without the delay.
 
-![Histogram of error in degrees (–180 to +180) showing a narrow, peaked distribution centered at 0, labeled "Simulated Choose the best." (The better the performance, the narrower the distribution.)](images/pdf2-082.ppm)
+![Histogram of error in degrees (–180 to +180) showing a narrow, peaked distribution centered at 0, labeled "Simulated Choose the best." (The better the performance, the narrower the distribution.)](images/pdf2-082.png)
 
 (The better the performance, the narrower the distribution.)
 
@@ -130,15 +130,15 @@
 
 - **Resource model.** (The continuous version of a resource model)
 
-![Resource model illustration: a water bucket (total resource) being divided among multiple cups (items), with histograms showing a single narrow peak at 1 item and a broader distribution at 3 items, reflecting continuous degradation of WM precision as more items are stored](images/pdf2-103.ppm)
+![Resource model illustration: a water bucket (total resource) being divided among multiple cups (items), with histograms showing a single narrow peak at 1 item and a broader distribution at 3 items, reflecting continuous degradation of WM precision as more items are stored](images/pdf2-103.png)
 
-![Additional histograms for the resource model at higher loads, showing further spreading/flattening of the distribution](images/pdf2-104.ppm)
+![Additional histograms for the resource model at higher loads, showing further spreading/flattening of the distribution](images/pdf2-104.png)
 
 - **Slots model.** (The discrete version of a resource model)
 
-![Slots model illustration: ice-cube tray (discrete slots) with a fixed number of cubes/slots, and histograms showing a bimodal distribution at higher loads — one sharp peak (item held in a slot) and a flat component (items not held in any slot)](images/pdf2-105.ppm)
+![Slots model illustration: ice-cube tray (discrete slots) with a fixed number of cubes/slots, and histograms showing a bimodal distribution at higher loads — one sharp peak (item held in a slot) and a flat component (items not held in any slot)](images/pdf2-105.png)
 
-![Additional histograms for the slots model at higher loads, illustrating the bimodal distribution characteristic of a discrete slots framework](images/pdf2-106.ppm)
+![Additional histograms for the slots model at higher loads, illustrating the bimodal distribution characteristic of a discrete slots framework](images/pdf2-106.png)
 
 ---
 
@@ -147,7 +147,7 @@
 - **Delay tasks:**
   - Segregate encoding, maintenance, response.
 
-![Diagram of a delay task: three boxes labeled "cue" (encode), "delay" (maintain), and "probe" (retrieve/execute a response). The delay phase is highlighted. (Most research focuses on maintenance.)](images/pdf2-107.ppm)
+![Diagram of a delay task: three boxes labeled "cue" (encode), "delay" (maintain), and "probe" (retrieve/execute a response). The delay phase is highlighted. (Most research focuses on maintenance.)](images/pdf2-107.png)
 
   (Most research focuses on maintenance.)
   - Delay tasks allow us to isolate neural activity associated with these subcomponents of WM.
@@ -155,16 +155,16 @@
   - Neural activity that persists during the delay of a WM delay task.
   - The oculomotor delayed response (ODR) task:
 
-![Diagram of the ODR task setup and a Macaque monkey with an electrode system and recording from the principal sulcus / dorsolateral prefrontal cortex](images/pdf2-108.ppm)
+![Diagram of the ODR task setup and a Macaque monkey with an electrode system and recording from the principal sulcus / dorsolateral prefrontal cortex](images/pdf2-108.png)
 
   (Focus on the principal sulcus; dorsolateral prefrontal cortex)
     - Neuron fires at some baseline level of activity.
     - Firing remains elevated above baseline throughout the entire delay.
     - Neuron fires during response and returns to pre-trial baseline levels.
 
-![ODR task trial diagram showing three frames (stimulus on, delay, response saccade) linked to a spike-rate histogram showing elevated "C → D → R" activity, where D (delay) maintains firing above baseline](images/pdf2-109.ppm)
+![ODR task trial diagram showing three frames (stimulus on, delay, response saccade) linked to a spike-rate histogram showing elevated "C → D → R" activity, where D (delay) maintains firing above baseline](images/pdf2-109.png)
 
-![Raster plot showing elevated firing across trials during the delay period, with spike rate on the y-axis and time on the x-axis](images/pdf2-110.ppm)
+![Raster plot showing elevated firing across trials during the delay period, with spike rate on the y-axis and time on the x-axis](images/pdf2-110.png)
 
 ---
 
@@ -173,9 +173,9 @@
 - Observed in the human prefrontal cortex with fMRI.
   - Critique: the delay is not necessary maintenance of WM because it is contaminated by other factors. (Elaborated in the next lecture)
 
-![BOLD fMRI signal over time during cue, delay, and probe phases, showing sustained activity during the delay period, with a brain diagram highlighting the prefrontal cortex region (area shown in red)](images/pdf2-117.ppm)
+![BOLD fMRI signal over time during cue, delay, and probe phases, showing sustained activity during the delay period, with a brain diagram highlighting the prefrontal cortex region (area shown in red)](images/pdf2-117.png)
 
-![Raster plot and histogram at the single-neuron level (spike rate), showing cue (C), delay (D), and response (R) epochs; right panel shows averaged firing rate across 3 seconds, illustrating sustained elevated activity during delay](images/pdf2-118.ppm)
+![Raster plot and histogram at the single-neuron level (spike rate), showing cue (C), delay (D), and response (R) epochs; right panel shows averaged firing rate across 3 seconds, illustrating sustained elevated activity during delay](images/pdf2-118.png)
 
 [Roster plot: rows – trials; ticks – action potential of neurons.]
 
@@ -183,7 +183,7 @@
 
 ## The Principal Sulcus (9/46)
 
-![Three images of the principal sulcus: (a) photograph of a rhesus monkey (Macaca mulatta) brain showing the arcuate sulcus and principal sulcus labeled, with 1 cm scale bar; (b) schematic cross-section of the prefrontal cortex showing Brodmann areas (8B, 9, 46, 1F, 8A, 45, 12); (c) color-coded map of prefrontal areas (8B, 9/46d, 9/46v, 8Ad, 8Av, 45A, 45B, 47/12, 44)](images/pdf2-130.ppm)
+![Three images of the principal sulcus: (a) photograph of a rhesus monkey (Macaca mulatta) brain showing the arcuate sulcus and principal sulcus labeled, with 1 cm scale bar; (b) schematic cross-section of the prefrontal cortex showing Brodmann areas (8B, 9, 46, 1F, 8A, 45, 12); (c) color-coded map of prefrontal areas (8B, 9/46d, 9/46v, 8Ad, 8Av, 45A, 45B, 47/12, 44)](images/pdf2-130.png)
 
 ---
 
@@ -204,7 +204,7 @@
 | **Evidence:** | Within each sensory area, sensations are "mapped" in ways that maintain an orderly representation of the stimulus. |
 | | e.g. the homunculus that is maintained within the somatosensory cortex; tonotopic maps that are formed in the auditory system; topographic maps in the visual cortex. |
 
-![Diagram of labeled line coding: numbered neurons (1–30) labeled "Coding by Labeled Neuronal Lines," alongside a somatosensory cortex homunculus and a graph of typical sensitivity of the three types of cones (short-, medium-, long-wavelength) to different wavelengths of light](images/pdf2-131.ppm)
+![Diagram of labeled line coding: numbered neurons (1–30) labeled "Coding by Labeled Neuronal Lines," alongside a somatosensory cortex homunculus and a graph of typical sensitivity of the three types of cones (short-, medium-, long-wavelength) to different wavelengths of light](images/pdf2-131.png)
 
 ### Pattern Theory / Population Code
 
@@ -218,9 +218,9 @@
 | | Under this theory, it is the pattern of activation of neural networks that forms the basis of perception. |
 | **Evidence:** | Examples are found in the olfactory system, and in color perception. |
 
-![Diagram of population/pattern coding: left shows "Coding by Across Neuron Response Patterns" with multiple neurons (circles with varying fill), center shows a matrix of odorant receptors (A–H) responding to 14 different odorants with descriptions (rancid, sweet, sour, etc.), right shows labeled-line vs. pattern-code comparison diagrams for "Sweet" taste input through CNS](images/pdf2-132.ppm)
+![Diagram of population/pattern coding: left shows "Coding by Across Neuron Response Patterns" with multiple neurons (circles with varying fill), center shows a matrix of odorant receptors (A–H) responding to 14 different odorants with descriptions (rancid, sweet, sour, etc.), right shows labeled-line vs. pattern-code comparison diagrams for "Sweet" taste input through CNS](images/pdf2-132.png)
 
-![Receptor input → CNS labeled line → "Sweet" (line decoder output) vs. Receptor input → CNS pattern code → "Sweet" (pattern decoder output), illustrating the two coding strategies](images/pdf2-133.ppm)
+![Receptor input → CNS labeled line → "Sweet" (line decoder output) vs. Receptor input → CNS pattern code → "Sweet" (pattern decoder output), illustrating the two coding strategies](images/pdf2-133.png)
 
 #### My Summary & Understanding
 
@@ -229,7 +229,7 @@
 - In the labeled line coding theory, the upper bound of the things that could be represented equals the numbers of labeled lines that a person has. Differently, in the population coding theory, the representations could be way more than the numbers of neurons, which is an advantage.
 - Another advantage of population coding is its robustness for distinction even when noises are present. Contrary to the labeled line coding theory, the fact that a neuron is firing does not uniquely tell people which stimulus the body is responding to. In other words, population coding has a huge redundancy in its firing pattern. Even when a neuron that is supposed to fire does not fire or a neuron that is not supposed to fire fires, people can still tell the signal that the neurons are responding to from the overall pattern.
 
-![Population vector diagram showing different directions of motion being tested: multiple "starburst" patterns each representing a population of neurons with their preferred directions (cell preferred directions), and a dashed neuronal population vector indicating the averaged activity of all neurons being recorded](images/pdf2-136.ppm)
+![Population vector diagram showing different directions of motion being tested: multiple "starburst" patterns each representing a population of neurons with their preferred directions (cell preferred directions), and a dashed neuronal population vector indicating the averaged activity of all neurons being recorded](images/pdf2-136.png)
 
 - On the graph, there are different directions of motion being tested.
   - The dashed line with an arrow is a population vector – the averaged activity of all the neurons being recorded.
@@ -238,4 +238,4 @@
 - In the bottom right, the actual stimulus is moving in negative 45 degrees, and the neuron that fires the most is oriented at the same degree. This fits the idea of a labeled line.
 - In the bottom left, the actual stimulus is moving in negative 135 degrees, but the neurons that fire the most are not in that direction. However, the population average aligns with the is closely aligned preferred motion.
 
-![Detailed population vector panel showing individual neuron preferred directions and the resulting population vector for specific motion directions, illustrating how population coding (not individual labeled-line neurons) tracks actual motion direction](images/pdf2-137.ppm)
+![Detailed population vector panel showing individual neuron preferred directions and the resulting population vector for specific motion directions, illustrating how population coding (not individual labeled-line neurons) tracks actual motion direction](images/pdf2-137.png)

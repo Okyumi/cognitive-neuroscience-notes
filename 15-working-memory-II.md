@@ -9,7 +9,7 @@
 - **Delay task:** segregate the encoding, maintenance, and retrieval period.
   - Different versions of the test (change the response): delayed response, delayed recognition, delayed oculomotor, delayed match to sample, delayed nonmatch to sample…
 
-![Diagram of a delay task with three labeled stages: cue (encode), delay (maintain), probe (retrieve/execute a response). The delay/maintain phase is circled in red.](images/pdf2-161.ppm)
+![Diagram of a delay task with three labeled stages: cue (encode), delay (maintain), probe (retrieve/execute a response). The delay/maintain phase is circled in red.](images/pdf2-161.png)
 
 **What is the neural activity in the brain that corresponds to the delay interval of the task?**
 
@@ -22,7 +22,7 @@
 
 - The effects of lesions are not limited to the delay period!
 
-![Brain scan images (MRI/PET) showing DLPFC lesion examples across multiple slices, illustrating the extent and location of lesion damage in patients with WM impairments](images/pdf2-162.ppm)
+![Brain scan images (MRI/PET) showing DLPFC lesion examples across multiple slices, illustrating the extent and location of lesion damage in patients with WM impairments](images/pdf2-162.png)
 
   - Does the patient understand the task?
   - Can they perceive the stimuli?
@@ -39,7 +39,7 @@
       - The lesion is reversible: when heating the brain, the neurons will be active again. Thus, experimenters can use these animals as their own controls repeatedly and individual differences are eliminated.
     - Result: under normal temperature and parietal cooling, the performance did fall off when delays were longer, but the monkeys never fell under 80% accuracy. However, when DLPFC is cooled, the performance dropped almost to guessing. (This situation has the same concept as the expected results above.)
 
-![Graph of mean % correct vs. delay duration comparing Normal temp, Frontal 20°C cooling, and Parietal 20°C cooling conditions, with a dashed line at chance level. Frontal cooling drops performance dramatically near chance level. Adjacent diagram of a monkey brain with cooling probe placement.](images/pdf2-163.ppm)
+![Graph of mean % correct vs. delay duration comparing Normal temp, Frontal 20°C cooling, and Parietal 20°C cooling conditions, with a dashed line at chance level. Frontal cooling drops performance dramatically near chance level. Adjacent diagram of a monkey brain with cooling probe placement.](images/pdf2-163.png)
 
 ---
 
@@ -67,14 +67,14 @@
 
 - Procedure: instruction → encoding (one/two image/face) → 12-sec delay (because it is an fMRI test) → match response → a long inter-trial interval (allow the neuron activities to return to the baseline).
 
-![Experimental paradigm diagram showing instruction phase (1 sec), encoding phase (3 × 1 sec), delay phase (12 sec), match/response phase (2 sec), and ITI (14 sec) for four conditions: 2-Scene, 1-Scene, 2-Face, 1-Face. YES/NO responses shown at the match phase.](images/pdf2-164.ppm)
+![Experimental paradigm diagram showing instruction phase (1 sec), encoding phase (3 × 1 sec), delay phase (12 sec), match/response phase (2 sec), and ITI (14 sec) for four conditions: 2-Scene, 1-Scene, 2-Face, 1-Face. YES/NO responses shown at the match phase.](images/pdf2-164.png)
 
 - During the cue period, there were no huge differences between the FFA and PPA depending on the type of the task. (The FFA/PPA was a bit more active in trials with faces/scenes because there were things supposed to be remembered.)
 - **If these regions were just perceiving information, the performance should go back to zero in the delay period. However, here, during the memory delay, FFA continues to be active during face WM but not scene WM, and vice versa for PPA.**
 
-![Bar graphs showing parameter estimates for FFA and PPA during the Cue Period and Delay Period, comparing Face WM (green) vs. Scene WM (blue). During the delay period, FFA is elevated for Face WM but not Scene WM, and PPA is elevated for Scene WM but not Face WM.](images/pdf2-165.ppm)
+![Bar graphs showing parameter estimates for FFA and PPA during the Cue Period and Delay Period, comparing Face WM (green) vs. Scene WM (blue). During the delay period, FFA is elevated for Face WM but not Scene WM, and PPA is elevated for Scene WM but not Face WM.](images/pdf2-165.png)
 
-![Brain images (MRI) showing the location of FFA (fusiform face area) and PPA (parahippocampal place area) within the ventral visual stream](images/pdf2-166.ppm)
+![Brain images (MRI) showing the location of FFA (fusiform face area) and PPA (parahippocampal place area) within the ventral visual stream](images/pdf2-166.png)
 
 - It is a within subject design. As long as the differences are consistent across subjects, the results are significant despite having huge error bars.
 
@@ -90,7 +90,7 @@
 
 ## Problems with the "IT Module" Model
 
-![fMRI images showing BOLD activity in visual regions during WM delay, illustrating that the IT module approach has limitations](images/pdf2-167.jpg)
+![fMRI images showing BOLD activity in visual regions during WM delay, illustrating that the IT module approach has limitations](images/pdf2-167.png)
 
 - With virtual lesions, people can still represent items in WM. But it does not mean to be localized in order to be stored in the visual regions.
 - The model still does not rule out the confound of attention.

@@ -4,9 +4,9 @@
 
 ---
 
-![Diagram comparing amplitudes and durations of electric potentials from different recording methods: EEG (scalp), ECoG (cortical surface), FP and unit spikes (extracellular), and intracellular recordings. Lower panels show corresponding waveform shapes for each method.](images/pdf2-172.ppm)
+![Diagram comparing amplitudes and durations of electric potentials from different recording methods: EEG (scalp), ECoG (cortical surface), FP and unit spikes (extracellular), and intracellular recordings. Lower panels show corresponding waveform shapes for each method.](images/pdf2-172.png)
 
-![Diagram of the whole-cell patch clamp procedure showing three stages: (1) Approach — recording micropipette with mild positive pressure touching the plasma membrane/cytoplasm; (2) Seal formation — mild suction creating a gigaohm seal; (3) Whole-cell configuration — brief and strong suction to rupture the membrane patch](images/pdf2-173.ppm)
+![Diagram of the whole-cell patch clamp procedure showing three stages: (1) Approach — recording micropipette with mild positive pressure touching the plasma membrane/cytoplasm; (2) Seal formation — mild suction creating a gigaohm seal; (3) Whole-cell configuration — brief and strong suction to rupture the membrane patch](images/pdf2-173.png)
 
 - A comparison of the amplitudes and durations of electric potentials recorded from the scalp (electroencephalogram or EEG) or surface of the cortex (electrocorticogram or ECoG) with macroelectrodes, or adjacent to or within single neurons with microelectrodes. The potentials detected with macroelectrodes tend to be dominated by extracellular currents arising from comparatively long duration (10–1000 ms) postsynaptic potentials in neurons or events of similar duration in glial cells, whereas microelectrodes can also detect rapid changes in membrane potential in adjacent neurons or axons, such as action potentials or unit "spikes."
   [https://link.springer.com/protocol/10.1385/0-89603-185-3:1]
@@ -29,9 +29,9 @@
 
 ## In-Class Notes on the Demonstration
 
-![Screenshot of a WeChat Moments post (November 11, 2021, 02:51) with attached electrophysiology images. The post reads (translation): "Attached [Figure 2] Electrophysiology · Single-neuron recording. We didn't rupture the cell membrane, just hoping to observe neural activity at a rougher level. Then because the ion channel blockers couldn't be washed out, we didn't manage to see action potentials — the demo was a bit lonely but still eye-opening haha."](images/pdf2-174.ppm)
+![Screenshot of a WeChat Moments post (November 11, 2021, 02:51) with attached electrophysiology images. The post reads (translation): "Attached [Figure 2] Electrophysiology · Single-neuron recording. We didn't rupture the cell membrane, just hoping to observe neural activity at a rougher level. Then because the ion channel blockers couldn't be washed out, we didn't manage to see action potentials — the demo was a bit lonely but still eye-opening haha."](images/pdf2-174.png)
 
-![Instagram post from noa_nostalgia (NYU Abu Dhabi): "Wasn't able to see a real-time electrophysiology demo of the single-unit recording in class. The neurons failed to fire properly cuz the ion channels' blockers couldn't be washed away in time. But, still, very interesting & rewarding!!! yatung.1017 🔥🔥" — liked by treedombeibei and 23 others, posted 1 week ago. The post shows images of the electrophysiology setup (microscope, computer screen with recordings) alongside the recording diagram from the lecture.](images/pdf2-175.ppm)
+![Instagram post from noa_nostalgia (NYU Abu Dhabi): "Wasn't able to see a real-time electrophysiology demo of the single-unit recording in class. The neurons failed to fire properly cuz the ion channels' blockers couldn't be washed away in time. But, still, very interesting & rewarding!!! yatung.1017 🔥🔥" — liked by treedombeibei and 23 others, posted 1 week ago. The post shows images of the electrophysiology setup (microscope, computer screen with recordings) alongside the recording diagram from the lecture.](images/pdf2-175.png)
 
 ---
 
