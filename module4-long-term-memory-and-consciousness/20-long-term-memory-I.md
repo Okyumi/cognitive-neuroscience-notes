@@ -4,227 +4,318 @@
 
 ---
 
-[← Back to Main Contents](../README.md) | [← Previous Lecture](19-working-memory-IV.md) | [Next Lecture →](21-long-term-memory-II.md)
+[← Back to Main Contents](../README.md) | [← Previous Lecture](../module3-attention-and-working-memory/19-treedom-summary.md) | [Next Lecture →](21-long-term-memory-II.md)
 
 ---
 
-## Long-Term Memory (LTM)
+## Memory in Broad Terms
 
-- **The ability to store and retrieve information over long periods of time (hours, days, years).**
-  - Contrast with WM: seconds to minutes.
-- LTM is not a unitary system; there are multiple types of LTM.
+### What is a memory?
 
----
+- An experience-dependent change in behavior.
+- From students: "Resurfacing representation about past events".
+  - Counterargument: We do not need resurfacing (recalling) to call it a memory.
+  - Memory could be representations of external events and internal feelings.
 
-## Why Studying LTM?
+### What is not memory?
 
-- **Basic science:**
-  - LTM underlies the richness of human experience: personal history, knowledge, skills, language.
-  - LTM is deeply linked to identity.
-- **Clinical relevance:**
-  - Memory disorders are prevalent: Alzheimer's disease (AD), amnesia, PTSD.
-  - Understanding the cellular basis of LTM may open avenues for treatment.
+- Storage? DNA: biological storage which is not memory.
+- Predictions? Some argue that it is prospective memory, but most people do not regard it as memory.
+- Present experience? e.g., shivering. This is only based on present experiences but not prior experiences.
+- Dreaming? However, they are built on experiences. This links to the topic of perception:
+  - Perception cannot exist without memory, but it is not memory.
 
----
+### What is a memory system?
 
-## Types of LTM
-
-| | **Explicit (Declarative)** | **Implicit (Non-Declarative)** |
-|---|---|---|
-| **Definition** | Consciously accessible | Not consciously accessible |
-| **Subtypes** | Episodic (personal events) | Procedural (skills, habits) |
-| | Semantic (facts, knowledge) | Priming |
-| | | Conditioning |
-| **Brain regions** | Hippocampus, MTL | Cerebellum, BG, Amygdala |
-| **Example** | "I remember eating sushi last Tuesday" | Riding a bike |
+- The set of processes and operations that allow us to encode, store, and recall specific types of information.
+  - Determined by the functional and structural organization of our brains.
 
 ---
 
-## Hippocampus and LTM
+## Memory & The Brain
 
-- The hippocampus (and surrounding MTL structures) is critical for forming new explicit LTM.
-- Landmark case: **Patient H.M. (Henry Molaison)**
-  - Bilateral hippocampal removal for epilepsy treatment (1953).
-  - After surgery: profound anterograde amnesia (inability to form new explicit memories).
-  - Retrograde amnesia for events close to the surgery.
-  - Preserved WM: could hold information for short periods.
-  - Preserved implicit memory: could learn new skills (e.g., mirror drawing), but had no conscious recollection of learning them.
-  - **Key insight:** The hippocampus is necessary for forming new explicit LTM, but not for WM or implicit memory.
+### What is a memory in the brain?
+
+- LTM: An experience-dependent structural change.
+- Memory is not so much a result of this structural change as it is this structural change.
+  - Clarification:
+    - Structural changes which are not experience-dependent:
+      - e.g., During development (or aging), there are timing-dependent structural changes that happened in the brain — they are not memory.
+    - Experience-dependent changes which are not structural:
+      - e.g., There are changes in the activity but not the wiring of the brain. e.g., circadian rhythms.
+
+- **Macro-level**: LTM relies on structural change in the medial temporal lobes (MTL).
+- **Micro-level**: specifically, memory is the change in the connection between neurons. (Cellular-based)
+  - Long-term potentiation (LTP): one mechanism that neurons undergo experience-dependent changes in connection.
+  - LTP-dependent learning/memory requires NMDA receptors.
 
 ---
 
-## Cellular Basis of LTM: Long-Term Potentiation (LTP)
+## Macro Level
 
-- **LTP: a long-lasting increase in synaptic strength following high-frequency stimulation.**
-- First described by Tim Bliss and Terje Lømo (1973) in the hippocampus.
+### Memory & Brain Damage: HM
 
-### The Hebb Rule
+- Henry Molaison (1926-2008)
+  - Treat seizure; bilateral temporal lobectomy叶切除术 resulted in profound amnesia.
+- Relatively spared remote memory.
+  - Able to remember anecdotes and facts from childhood, e.g., who was president in 1938.
+- Profound anterograde amnesia远事遗忘、顺行性遗忘.
+  - Unable to form new LTM. "Frozen in time."
 
-> "Neurons that fire together, wire together."
+### The MTL and LTM
 
-- If neuron A repeatedly fires just before neuron B, the synaptic connection from A to B is strengthened.
-- This is the cellular basis of associative learning.
+- MTL critically important for LTM.
+- The picture below: patient HM vs. normal controls.
 
-### NMDA Receptors and LTP
-
-- **NMDA receptor**: a type of glutamate receptor that acts as a "coincidence detector".
-  - It requires BOTH:
-    1. Presynaptic release of glutamate.
-    2. Postsynaptic depolarization (i.e., the postsynaptic cell must already be active).
-  - When both conditions are met, calcium (Ca²⁺) enters the postsynaptic cell.
-  - Ca²⁺ triggers a cascade of molecular events that ultimately lead to:
-    - Insertion of more AMPA receptors into the synapse.
-    - Increased synaptic strength.
+| Abbreviation | Structure | Chinese | Function |
+|---|---|---|---|
+| — | Lateral ventricle | 侧脑室 | Filled with CSF (cerebrospinal fluid) |
+| — | Thalamus | 丘脑 | Relay motor & sensory signals to cerebral cortex |
+| A | Amygdala | 杏仁体 | Emotion & Memory |
+| H | Hippocampus | 海马体 | Learning & Memory |
+| EC | Entorhinal cortex | 内嗅皮层 | Memory & Navigation & Time perception |
+| RS | Rhinal sulcus | 嗅脑沟 | — |
+| PC | Perirhinal cortex | 鼻周皮层 | Receive highly processed sensory information from all sensory regions & Region for memory |
+| PHC | Parahippocampal cortex | 海马旁皮质 | Memory formation (e.g., hippocampus) & High-level visual processing (e.g., fusiform cortex) |
 
 <p align="center">
-  <img src="../images/pdf3-012.png" alt="Diagram of NMDA receptor mechanism: presynaptic terminal releasing glutamate; NMDA receptor with Mg²⁺ block (removed when postsynaptic membrane is depolarized); Ca²⁺ influx into postsynaptic neuron; downstream molecular cascade leading to AMPA receptor insertion" width="600">
+  <img src="../images/pdf2-312.png" alt="MTL structures: MRI comparisons of patient HM vs. normal controls, and diagrams of the medial temporal lobe anatomy showing hippocampus, amygdala, entorhinal cortex, perirhinal cortex, parahippocampal cortex, and rhinal sulcus in multiple views" width="600">
 </p>
 
-*Diagram of NMDA receptor mechanism: presynaptic terminal releasing glutamate; NMDA receptor with Mg²⁺ block (removed when postsynaptic membrane is depolarized); Ca²⁺ influx into postsynaptic neuron; downstream molecular cascade leading to AMPA receptor insertion*
-
----
-
-### LTP Induction Protocol
-
-- **High-frequency stimulation (HFS):** tetanic stimulation (e.g., 100 Hz for 1 s).
-  - This mimics the natural pattern of neural activity that would occur during learning.
-- **Result:** Persistent increase in EPSP amplitude after HFS.
-  - The synapse is now "potentiated".
+*MTL structures: MRI comparisons of patient HM vs. normal controls, and diagrams of the medial temporal lobe anatomy showing hippocampus, amygdala, entorhinal cortex, perirhinal cortex, parahippocampal cortex, and rhinal sulcus in multiple views*
 
 <p align="center">
-  <img src="../images/pdf3-014.png" alt="LTP induction graph: x-axis = time (minutes), y-axis = EPSP slope (% of baseline); a baseline period, then a tetanic stimulation (arrow), then a sustained elevated EPSP slope (LTP)" width="600">
+  <img src="../images/pdf2-313.png" alt="Lateral view of brain with MTL regions labeled: amygdala, perirhinal cortex, hippocampus, parahippocampal cortex, entorhinal cortex" width="600">
 </p>
 
-*LTP induction graph: x-axis = time (minutes), y-axis = EPSP slope (% of baseline); a baseline period, then a tetanic stimulation (arrow), then a sustained elevated EPSP slope (LTP)*
-
----
-
-### Properties of LTP
-
-1. **Cooperativity:** LTP is only induced when multiple inputs are co-activated.
-   - Weak stimulation of a single pathway is insufficient; co-activation of multiple inputs is required.
-2. **Associativity:** A weak input can be potentiated if it is co-active with a strong input.
-   - Consistent with the Hebb rule.
-3. **Specificity:** LTP is input-specific; only the synapses that were active get potentiated.
-   - This allows for selective strengthening of relevant synapses.
-
----
-
-### Phases of LTP
-
-| Phase | Time | Mechanism |
-|---|---|---|
-| Early LTP (E-LTP) | Minutes to hours | Phosphorylation of existing proteins (e.g., AMPA receptors) |
-| Late LTP (L-LTP) | Hours to days (and beyond) | New protein synthesis; gene expression; structural changes |
-
-- L-LTP requires:
-  - Activation of CREB (cAMP response element-binding protein) transcription factor.
-  - New mRNA synthesis and protein production.
-  - Structural changes at the synapse (e.g., growth of dendritic spines).
-
----
-
-## Morris Water Maze
-
-- A behavioral test for spatial memory in rodents.
-- The rat is placed in a pool of opaque water and must find a hidden submerged platform.
-- The rat uses distal visual cues to navigate to the platform.
-- **Key finding:** Rats with hippocampal lesions cannot learn the location of the platform (impaired spatial LTM).
-  - They swim randomly, unable to use spatial cues.
-  - But they can still find a visible platform (visual and motor systems intact).
+*Lateral view of brain with MTL regions labeled: amygdala, perirhinal cortex, hippocampus, parahippocampal cortex, entorhinal cortex*
 
 <p align="center">
-  <img src="../images/pdf3-018.png" alt="Morris water maze diagram: circular pool with a hidden platform; example swim paths for control rat (direct path to platform) vs. hippocampal-lesion rat (random path); probe trial bar graph showing % time in target quadrant for control vs. lesion" width="600">
+  <img src="../images/pdf2-314.png" alt="Color-coded diagram of MTL subregions on medial surface: hippocampus, amygdala, perirhinal cortex, entorhinal cortex, parahippocampal cortex" width="600">
 </p>
 
-*Morris water maze diagram: circular pool with a hidden platform; example swim paths for control rat (direct path to platform) vs. hippocampal-lesion rat (random path); probe trial bar graph showing % time in target quadrant for control vs. lesion*
-
----
-
-## Place Cells and Grid Cells
-
-### Place Cells (hippocampus)
-
-- **Place cell:** a neuron in the hippocampus that fires when the animal is in a specific location (the neuron's "place field").
-  - Discovered by John O'Keefe (Nobel Prize 2014).
-  - Together, the ensemble of place cells forms a cognitive map of the environment.
+*Color-coded diagram of MTL subregions on medial surface: hippocampus, amygdala, perirhinal cortex, entorhinal cortex, parahippocampal cortex*
 
 <p align="center">
-  <img src="../images/pdf3-022.png" alt="Place cell figure: top-down view of a maze or open field with a color map (hot = high firing rate, cold = low firing rate) showing a single neuron's place field concentrated in one region" width="600">
+  <img src="../images/pdf2-315.png" alt="3D reconstruction of MTL memory structures" width="600">
 </p>
 
-*Place cell figure: top-down view of a maze or open field with a color map (hot = high firing rate, cold = low firing rate) showing a single neuron's place field concentrated in one region*
-
-### Grid Cells (entorhinal cortex)
-
-- **Grid cell:** a neuron in the entorhinal cortex that fires at multiple locations, forming a regular hexagonal grid pattern across the environment.
-  - Discovered by Edvard and May-Britt Moser (Nobel Prize 2014, shared with O'Keefe).
-  - Grid cells are thought to provide a coordinate system that place cells use to form a cognitive map.
+*3D reconstruction of MTL memory structures*
 
 <p align="center">
-  <img src="../images/pdf3-024.png" alt="Grid cell figure: top-down view of an open field with a color map showing a regular hexagonal pattern of high-firing-rate spots spread across the environment" width="600">
+  <img src="../images/pdf2-316.png" alt="Coronal section diagram showing lateral ventricle, thalamus, entorhinal cortex, hippocampus, rhinal sulcus, perirhinal cortex, parahippocampal cortex" width="600">
 </p>
 
-*Grid cell figure: top-down view of an open field with a color map showing a regular hexagonal pattern of high-firing-rate spots spread across the environment*
+*Coronal section diagram showing lateral ventricle, thalamus, entorhinal cortex, hippocampus, rhinal sulcus, perirhinal cortex, parahippocampal cortex*
+
+<p align="center">
+  <img src="../images/pdf2-317.png" alt="Hippocampal cross-section diagram showing internal structure with color-coded regions" width="600">
+</p>
+
+*Hippocampal cross-section diagram showing internal structure with color-coded regions*
 
 ---
 
-## Episodic Memory and the Hippocampus
+## Micro Level
 
-- **Episodic memory:** memory for specific personal events ("what happened, where, and when").
-- The hippocampus is thought to bind together the different elements of an episode (what, where, when).
-  - This is sometimes called the **binding function** of the hippocampus.
+### LTP: An Example of Memory
 
-### Episodic Memory in Non-Human Animals?
+- Specifically, memory is the change in the connection between neurons.
+- Neurons A and B have a synapse. We stimulate neuron A and record from neuron B.
+  - This can be done in slices, e.g., hippocampal slice.
+- The change (strengthening) in connection would be represented by the fact that the same stimulation in neuron A leads to a different (greater) response in neuron B.
+  - Initially, every time you stimulated neuron A, you got approximately the same magnitude of response in neuron B at somewhere around 0.1mV.
+  - Then, after giving neuron A a tetanus (repeated high-frequency stimulations), neuron B responded twice as large (0.2mV) to the same single stimulation to neuron.
+    - We do not care about neuron B's response to tetanus itself.
+    - Tetanus mimics the brain process of making the memory.
+- This strengthening (potentiation) is long-lasting (even after two hours or longer).
 
-- **Scrub jays (Nicola Clayton's work):**
-  - Scrub jays cache food and can remember what they hid, where they hid it, and when (recency).
-  - This is taken as evidence for episodic-like memory in non-human animals.
-  - They preferentially recover perishable food (worms) before non-perishable food (nuts), if they learned that worms decay faster.
+<p align="center">
+  <img src="../images/pdf2-318.png" alt="LTP graph: slope of EPSP (mV/ms) over time (min), showing tetanus stimulation point and subsequent potentiation lasting 120+ minutes" width="600">
+</p>
 
----
-
-## Reconsolidation
-
-- After retrieval, a memory becomes temporarily labile (unstable) and must be re-stored (reconsolidated).
-- **Implication:** memories are not static; they can be modified at the time of retrieval.
-- **Clinical relevance:** targeting reconsolidation could be used to modify or weaken traumatic memories (PTSD treatment).
-
----
-
-## Systems Consolidation: Standard Model vs. Multiple Trace Theory
-
-### Standard Model (Squire & Alvarez, 1995)
-
-- Initially, new memories depend on the hippocampus.
-- Over time (through sleep and replay), memories are gradually transferred to neocortex.
-- Old memories become hippocampus-independent.
-
-### Multiple Trace Theory (Nadel & Moscovitch, 1997)
-
-- Each time a memory is retrieved, a new trace is laid down in the hippocampus.
-- Episodic memories remain hippocampus-dependent, regardless of their age.
-- Semantic memories (general facts) can become hippocampus-independent over time.
+*LTP graph: slope of EPSP (mV/ms) over time (min), showing tetanus stimulation point and subsequent potentiation lasting 120+ minutes*
 
 ---
 
-## Sleep and Memory Consolidation
-
-- Sleep plays a critical role in consolidating new memories.
-- During sleep (especially slow-wave sleep):
-  - The hippocampus "replays" recent experiences.
-  - This replay is thought to gradually transfer information to the neocortex.
-- **Evidence:** Sleep deprivation after learning impairs memory consolidation.
+*Below are notes from biopsychology.*
 
 ---
 
-## Summary
+### NMDA Receptor & Coincidence Detection (Notes from Biopsychology)
 
-- LTM is supported by LTP at the cellular level and the hippocampus at the systems level.
-- LTP is induced by coincident activity (NMDA receptor as coincidence detector), consistent with Hebb's rule.
-- The hippocampus is essential for forming new explicit memories (Patient H.M.) and supports spatial navigation (place cells).
-- Memory consolidation involves a gradual shift from hippocampal to neocortical storage, mediated by sleep replay.
+- A glutamate receptor (which has an Mg²⁺ ion stuck in its channel).
+- Requires both bindings of glutamate and depolarization (activation of the cell).
+- If neuron A is active, it releases glutamate at the synapse which binds to the NMDA receptor of neuron B and opens the channel.
+  - However, the Mg²⁺ ion is still stuck in the channel: despite being open, nothing can pass through the channel.
+- If neuron B is active, the positive charge inside the cell has a repulsive effect on the Mg²⁺ ion. The electrostatic force kicks out the Mg²⁺ ion.
+  - However, the NMDA channel remains closed because there is no glutamate.
+- Therefore, the NMDA receptor needs both neuron A and neuron B to be active, thus known as the "coincidence detector".
+- Critical for learning & memory.
+
+<p align="center">
+  <img src="../images/pdf2-319.png" alt="NMDA receptor diagram showing Mg²⁺ blockade, binding sites for glutamate, glycine/D-serine, polyamine, and Zn²⁺; with PCP/MK-801 binding site labeled" width="600">
+</p>
+
+*NMDA receptor diagram showing Mg²⁺ blockade, binding sites for glutamate, glycine/D-serine, polyamine, and Zn²⁺; with PCP/MK-801 binding site labeled*
+
+### What are the mechanisms underlying LTP?
+
+1. High frequent presynaptic stimulation → AMPA + NMDA co-activation.
+2. NMDA receptor activation → Influx of Ca²⁺.
+3. Changes via 2nd messengers.
+   - Increase in AMPA receptors. (Early-stage)
+   - Retrograde signaling → Increase in NT release. (Early-stage)
+   - Gene expression → Long-lasting changes and further increases in AMPA. (Late-stage → Permanent)
+
+<p align="center">
+  <img src="../images/pdf2-333.png" alt="Three-panel diagram of LTP mechanisms: (1) Neuron A active, Neuron B inactive → No LTP; (2) Neuron A inactive, Neuron B active → No LTP; (3) Coincidence detection: both neurons active → Mg²⁺ unblock in Neuron B → Long-term potentiation" width="600">
+</p>
+
+*Three-panel diagram of LTP mechanisms: (1) Neuron A active, Neuron B inactive → No LTP; (2) Neuron A inactive, Neuron B active → No LTP; (3) Coincidence detection: both neurons active → Mg²⁺ unblock in Neuron B → Long-term potentiation*
 
 ---
 
-[← Back to Main Contents](../README.md) | [← Previous Lecture](19-working-memory-IV.md) | [Next Lecture →](21-long-term-memory-II.md)
+### From the Carleton University Video on LTP (Shown in Class)
+
+- **Long-term potentiation (LTP)** is the cellular and molecular underpinnings of memory.
+- LTP is a long-lasting enhancement in signal transmission between two neurons after repeated stimulation.
+- On the postsynaptic cell are both NMDA and AMPA receptors. These receptors are usually localized together at many postsynaptic sites that are activated after the binding of the neurotransmitter glutamate.
+  - The AMPA receptor is permeable to sodium ions.
+  - The NMDA receptor is also permeable to sodium; but, more importantly, it has a high permeability to calcium. The NMDA receptor is also blocked by magnesium which prevents the ions from passing through the receptor.
+
+<p align="center">
+  <img src="../images/pdf2-334.png" alt="Synaptic diagram showing AMPA receptor and NMDA receptor on postsynaptic membrane, and glutamate being released from presynaptic terminal" width="600">
+</p>
+
+*Synaptic diagram showing AMPA receptor and NMDA receptor on postsynaptic membrane, and glutamate being released from presynaptic terminal*
+
+<p align="center">
+  <img src="../images/pdf2-335.png" alt="Ion channel diagrams: AMPA receptor open (Na⁺ influx) vs. NMDA receptor blocked by Mg²⁺" width="600">
+</p>
+
+*Ion channel diagrams: AMPA receptor open (Na⁺ influx) vs. NMDA receptor blocked by Mg²⁺*
+
+- When an action potential travels down the axons of the presynaptic neuron, it leads to the release of glutamate which binds to both the NMDA and AMPA receptors.
+- When a low-frequency action potential is propagated down the axon of the presynaptic neuron, a small amount of glutamate is released.
+  - The AMPA receptors will open and allow an influx of sodium into the postsynaptic cell. This causes a slight depolarization event in the postsynaptic cell.
+  - The glutamate also binds to the NMDA receptor, but no ions will pass through the pore due to the magnesium blockade.
+- While the small amount of neurotransmitter release signals a response, it is NOT enough to cause LTP.
+- This is comparable to studying material only a few times. You will not activate a high-frequency action potential from studying for just a short while.
+
+---
+
+- When a high-frequency action potential travels down the presynaptic neuron to the terminal, a larger amount of glutamate is released.
+- This is comparable to you studying for longer periods. This results in higher frequency action potentials.
+- When glutamate binds to the AMPA receptor, a greater depolarization event occurs.
+  - The AMPA receptors remain open longer due to the increased concentration of glutamate which allows a larger amount of sodium to enter through the AMPA receptors.
+  - This influx of sodium causes a large depolarization event in the postsynaptic cells which repels the magnesium blockade from the NMDA receptor through electrostatic repulsion.
+
+- At this point, the NMDA receptor with glutamine bound allows sodium and calcium to enter through its pore.
+  - NMDA receptors are coincidence detectors because they require a presynaptic AND postsynaptic event for channel opening: the binding of presynaptically-released glutamate and a significant postsynaptic depolarization via activation of the AMPA.
+
+<p align="center">
+  <img src="../images/pdf2-337.png" alt="NMDA receptor now unblocked, with sodium and calcium flowing in through the pore" width="600">
+</p>
+
+*NMDA receptor now unblocked, with sodium and calcium flowing in through the pore*
+
+- LTP is the process of strengthening the connections between two neurons.
+- The influx of postsynaptic calcium acts as an important secondary messenger activating many secondary intracellular cascades.
+- The increase in calcium contributes to two phases of LTP: **early phase** and **late phase**.
+- During the early phase, the calcium binds to its respective binding proteins and causes the insertion of new AMPA receptors onto the postsynaptic cell membrane at the synapse.
+  - These AMPA receptors are stored in the postsynaptic cells' internal cell-stores and will only insert when there was a large influx of calcium through the NMDA receptor. This allows more AMPA receptors to be available for future depolarization events.
+
+- The early phase changes last for only a few hours and require a brief increase in calcium levels.
+- During the late phase, a prolonged influx of calcium causes an increase in transcription factors, ultimately resulting in gene expression and new proteins being synthesized. Some proteins resulting from this process include AMPA receptors which are inserted into the postsynaptic cell membrane at the synapse.
+
+<p align="center">
+  <img src="../images/pdf2-339.png" alt="Late phase LTP diagram: prolonged Ca²⁺ increase activates CREB transcription factors leading to new protein synthesis including additional AMPA receptors" width="600">
+</p>
+
+*Late phase LTP diagram: prolonged Ca²⁺ increase activates CREB transcription factors leading to new protein synthesis including additional AMPA receptors*
+
+- In addition, there is an increase in the synthesis of proteins called growth factors. These are involved in the formation of new synapses which is the basis for synaptic plasticity — your brain can change as you learn. The formation of synapses allows for a stronger connection between the two neurons.
+
+- The late phase changes can last 24 hours up to a lifetime.
+- LTP is NOT a mechanism.
+- It is an outcome of the increased activity between two neurons.
+  - This results in an increase in AMPA receptors and synaptic connections which allows the low-frequency action potential to cause a greater depolarization event in the postsynaptic terminals.
+- This is the foundation of memory.
+- However, the hippocampus is not the only brain region that processes memories. Memory processing occurs in many other regions including parts of the cerebral cortex.
+- Studying activates various pathways throughout the entire brain. Continuous activation of the same pathways will create high-frequency presynaptic action potentials and postsynaptic activation in those paths. It is now clear that these pre- and post-synaptic events strengthen the connections in the specific pathway. This strengthening is what contributes to the ability to recall the material in the exam.
+
+---
+
+*End of the notes from biopsychology.*
+
+---
+
+### Three-panel Summary Diagram of LTP
+
+<p align="center">
+  <img src="../images/pdf2-302.png" alt="Three-panel synaptic diagram: (A) Normal synaptic transmission — NMDA receptor inactive due to Mg²⁺ block, AMPA receptor active, CaMKII, PKC, TK, CREB in dendritic spine; (B) Induction of LTP — increased Ca²⁺ activates protein kinases, retrograde messengers (NO, arachidonic acid), AMPA upregulation, CaMKII activation; (C) Enhanced synapse after LTP — more AMPA receptors, stronger synaptic response, more transmitter release" width="600">
+</p>
+
+*Three-panel synaptic diagram: (A) Normal synaptic transmission — NMDA receptor inactive due to Mg²⁺ block, AMPA receptor active, CaMKII, PKC, TK, CREB in dendritic spine; (B) Induction of LTP — increased Ca²⁺ activates protein kinases, retrograde messengers (NO, arachidonic acid), AMPA upregulation, CaMKII activation; (C) Enhanced synapse after LTP — more AMPA receptors, stronger synaptic response, more transmitter release*
+
+---
+
+## Memory, LTP, and NMDA
+
+*(Below are contents about how LTP could lead to actual behaviors.)*
+
+- AP5 is an NMDA antagonist / pharmacological blockade of NMDA receptor disrupted LTP.
+  - Normal control — got LTP. AP5 — failed to get LTP. Inactivated version — got LTP.
+
+<p align="center">
+  <img src="../images/pdf2-347.png" alt="Three electrophysiology graphs showing % baseline slope over time (min): (1) Control group achieving ~140% baseline (LTP); (2) DL-AP5 group failing to achieve LTP, remaining near 100%; (3) L-AP5 inactivated version group achieving LTP similar to control" width="600">
+</p>
+
+*Three electrophysiology graphs showing % baseline slope over time (min): (1) Control group achieving ~140% baseline (LTP); (2) DL-AP5 group failing to achieve LTP, remaining near 100%; (3) L-AP5 inactivated version group achieving LTP similar to control*
+
+- AP5 is given to wake-behaving mice. The experimenters then watch the behaviors of these mice. (Morris et al., 1986)
+- In this case, researchers remove the platforms of the water maze. The poor mice in the group that formed the memory spent all the time swimming near the top right corner, thinking where is the platform.
+- Researchers can turn the circle into four quadrants and compare how much time the mice spent in the right quadrant compared to the other quadrants.
+
+<p align="center">
+  <img src="../images/pdf2-349.png" alt="Bar graphs of time spent per quadrant (seconds): Control group spends significantly more time in correct quadrant; AP5 groups show roughly equal time across all quadrants, demonstrating impaired spatial memory" width="600">
+</p>
+
+*Bar graphs of time spent per quadrant (seconds): Control group spends significantly more time in correct quadrant; AP5 groups show roughly equal time across all quadrants, demonstrating impaired spatial memory*
+
+- Critically, NMDA blockage disrupted performance on the water maze task.
+  - Inhibiting the NMDA receptor both blocks the LTP and prevents the formation of memory behaviorally — the circumstantial evidence that LTP and behavioral evidence are related.
+  - Cannot learn → Unable to have changes in behaviors as a function of learning and experience.
+- **Conclusion**: NMDA receptor activation is essential for LTM.
+
+---
+
+## (Incomplete) Taxonomy of Memory
+
+Memory systems taxonomy:
+
+- **Memory systems**
+  - **Long-term memory**
+    - **Declarative (explicit)**
+      - Episodic — Hippocampus, medial temporal lobe, neocortex
+      - Semantic — Lateral and anterior temporal cortex, prefrontal cortex
+    - **Nondeclarative (implicit)**
+      - Skill learning (procedural) — Striatum, motor cortex, cerebellum
+      - Priming — Neocortex
+      - Classical conditioning — Amygdala and cerebellum
+      - Nonassociative learning — Reflex pathways
+      - Spatial memory — Hippocampus and cortex
+  - **Short-term memory (working memory)**
+    - Sensorimotor and prefrontal cortex
+
+<p align="center">
+  <img src="../images/pdf2-351.png" alt="(Incomplete) taxonomy of memory: full memory systems tree diagram showing Long-term memory (Declarative: Episodic and Semantic; Nondeclarative: Skill learning, Priming, Classical conditioning, Nonassociative learning, Spatial memory) and Short-term memory (working memory) with associated brain regions; plus subtypes of declarative and nondeclarative memory with examples" width="600">
+</p>
+
+*(Incomplete) taxonomy of memory: full memory systems tree diagram showing Long-term memory (Declarative: Episodic and Semantic; Nondeclarative: Skill learning, Priming, Classical conditioning, Nonassociative learning, Spatial memory) and Short-term memory (working memory) with associated brain regions; plus subtypes of declarative and nondeclarative memory with examples*
+
+
+---
+
+[← Back to Main Contents](../README.md) | [← Previous Lecture](../module3-attention-and-working-memory/19-treedom-summary.md) | [Next Lecture →](21-long-term-memory-II.md)
