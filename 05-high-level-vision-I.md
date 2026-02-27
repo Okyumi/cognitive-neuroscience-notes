@@ -25,7 +25,7 @@
 - Different sensations are carried to the brain via different pathways.
 - Different sensations are processed by different parts of the brain.
 
-![Brain regions showing primary and secondary sensory cortices for different modalities](images/pdf1-146.ppm)
+![Brain regions showing primary and secondary sensory cortices for different modalities](images/pdf1-146.png)
 
 ### Localize a physical stimulus.
 
@@ -34,9 +34,9 @@
     - Touch receptors.
     - Photoreceptors.
 
-![Receptive field of Pacinian corpuscles and Meissner's corpuscles (A and B)](images/pdf1-147.ppm)
+![Receptive field of Pacinian corpuscles and Meissner's corpuscles (A and B)](images/pdf1-147.png)
 
-![Visual pathway diagram showing optic chiasm, lateral geniculate body, and optic radiation](images/pdf1-148.ppm)
+![Visual pathway diagram showing optic chiasm, lateral geniculate body, and optic radiation](images/pdf1-148.png)
 
   - Receptive fields have a center and size. (The smaller the receptive size, the higher the acuity.)
 
@@ -50,67 +50,78 @@
 - "Seeing is not a direct apprehension of reality, as we often like to pretend. quite the contrary: seeing is an inference from incomplete information." —e.t. Jaynes
 - When we perceive, we combine the evidence (incomplete information) with our prior knowledge of the world.
 
-![Visual pathway anatomy diagram (left) and DTI/HARDI tractography showing visual pathways (right)](images/pdf1-149.ppm)
+![Visual pathway anatomy diagram (left) and DTI/HARDI tractography showing visual pathways (right)](images/pdf1-149.png)
 
-- Example: the directionality of the visual pathway—there are more fibers carrying information against the flow of information (in the reverse direction) which is probably because the cortex influences the lower-level region and modifies the information that is being stored and transmitted from the retina to the cortex.
-
----
-
-## Dorsal & Ventral Streams
-
-![Diagram of dorsal and ventral visual pathways showing Retina, LGN, V1, V2, V3, V4, V5/MT, MST, V3a, IPL, SPL, IT](images/pdf1-150.ppm)
-
-- What information is processed in each stream?
-  - **Ventral**: complex object information.
-  - **Dorsal**: spatial information, location, movement.
-  - What vs. Where (Ungerleider & Mishkin, 1982)
-  - "Vision for perception" vs. "Vision for action" (Goodale & Milner, 1992)
-
-- Evidence from brain damage:
-  - **Hemispatial neglect**: damage to parietal lobe (dorsal stream).
-
-![Hemispatial neglect: copying task (left) and spontaneous drawing (right) — missing out the left part](images/pdf1-155.jpg)
-
-  - Missing out the left part.
-
-- **Patient DF**: damage to ventral stream.
-
-![Patient DF brain lesions (top-left MRI scans); perceptual orientation matching task vs. visuomotor "posting" task for DF and control](images/pdf1-156.ppm)
-
-  - Left: perceptual orientation matching task (understanding orientation);
-  - Right: put the card in the slot (practicing action).
-
-- Evidence from neurophysiological data: dissociation of information processing.
-  - **Middle temporal area (area MT)**: motion direction preference. (The left graph)
-  - **Inferior temporal cortex (IT cortex)**: cortices and faces. (The two right graphs)
-
-![Brain diagram showing MST, MT, V3s, V3, V2, V1 areas (left); fMRI face-selective activation (center); IT neuron response properties grid (right)](images/pdf1-157.ppm)
-
-  - Eyes are definitely important, but the holistic configuration is more important. There is nothing to do with the familiarity (no firing for hands).
-  - Properties of IT neurons:
-    - Preference for faces & face-like objects.
-    - Size invariance. (It does not matter for the size of the face.)
-    - Position invariance. (It does not matter if rotating the face along the axis.)
-    - Category vs. Token/Exemplar? (Is responding generally to faces or differentiating different faces?)
+- Example: the directionality of the visual pathway—there are more fibers carrying information against the flow of information (in the reverse direction) with respect to the classical flow of information from the primary visual cortex to other areas. This means that more information about our model of the world influences the incoming visual information than information about the visual stimulus itself influences the higher areas.
 
 ---
 
-## Paper 5: Separate Visual Pathways for Perception and Action (Perception and Action: Separate Visual Pathways)
+## Hierarchy of the Visual System
 
-**Summary**
+- **V1** (primary visual cortex, Brodmann area 17): retinal location, orientation, spatial frequency, color, binocular disparity.
+- Higher areas encode increasingly complex features.
+- Moving up the **ventral visual stream** (V1 → V2 → V4 → IT): Objects — what.
+- Moving up the **dorsal visual stream** (V1 → V2 → V5/MT → PP): Actions — where/how.
 
-**In 1982:**
+![Diagram of the ventral and dorsal visual streams in the brain](images/pdf1-152.png)
 
-| Name | Pathway | Function | Lesion |
-|------|---------|----------|--------|
-| Ventral stream | Striate cortex → Inferotemporal cortex | Objects' qualities | Visual pattern discrimination and recognition |
-| Dorsal stream | Striate cortex → Posterior parietal cortex | Objects' spatial location | Solving landmark tasks |
+---
 
-**Now:**
+## Receptive Fields
 
-Temporal and parietal lobes could both be involved in shape analysis but associated with different strategies.
+- **Receptive field**: the region of the visual field in which the presence of a stimulus will alter the firing rate of a neuron.
+- Simple vs. complex cells (Hubel & Wiesel, 1962):
 
-| Name | Function | Summary | Elaboration |
-|------|----------|---------|-------------|
-| Ventral stream | Vision for perception: perceptual identification for objects | Object-centered | Consistencies of shape, size, color, lightness, and location need to be maintained across different viewing conditions. |
-| Dorsal stream | Vision for action: mediate the required sensorimotor transformations for visually guided actions directed at objects | Viewer-centered | Location of the object. Object's particular deposition and motion with respect to the viewer (egocentric coordinates). |
+![Hubel and Wiesel simple cell (ON/OFF center-surround) and complex cell receptive field diagrams](images/pdf1-155.png)
+
+---
+
+## Visual Perception Models
+
+### View-Dependent Models
+
+- Representation is based on the view of the object.
+  - Tarr & Pinker (1989): mental rotation; objects recognized faster when presented at familiar orientations.
+
+![Graph showing recognition time as a function of orientation angle, supporting mental rotation](images/pdf1-156.png)
+
+### View-Independent Models
+
+- Representation is based on the structural description of the object.
+  - Biederman (1987): Recognition by Components theory (RBC); objects are made of **geons** (geometric ions) which are viewpoint-invariant.
+
+![Biederman's Recognition by Components theory showing objects decomposed into geometric primitives (geons)](images/pdf1-157.png)
+
+---
+
+## Prosopagnosia
+
+- **Prosopagnosia** (face blindness): inability to recognize faces.
+  - Even famous faces or one's own face in a mirror.
+  - Can usually identify individuals by voice, gait, or context.
+- Caused by damage to the **right fusiform gyrus**.
+
+![Patient with prosopagnosia drawing of a face — distorted, fragmented features](images/pdf1-158.png)
+
+---
+
+## Visual Agnosia
+
+- **Visual agnosia**: inability to recognize objects, despite intact visual acuity.
+  - Intact low-level vision (acuity, color, motion detection).
+  - Deficit in higher-level processing.
+
+---
+
+## Imagery and Perception: Same Neural Substrate?
+
+- fMRI studies: imagining a visual scene activates V1 and higher visual areas.
+- Mental imagery shares neural substrates with perception.
+
+---
+
+## Illusory Contours
+
+- V2 neurons respond to illusory contours (Kanizsa triangle).
+
+![Kanizsa triangle illusion — illusory contours creating a white triangle perception](images/pdf1-160.png)

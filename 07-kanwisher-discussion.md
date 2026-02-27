@@ -4,66 +4,73 @@
 
 ---
 
-## Paper 6: The Fusiform Face Area: A Module in Human Extrastriate Cortex Specialized for Face Perception (The Fusiform Face Area: A Module in Human Extrastriate Cortex Specialized for Face Perception)
-
-**Summary**
-
-Big aim: test the selectivity of face processing; find evidence for the face module (and rule out other possibilities).
-
-**Why choosing the right-handed:**
-
-1. (Trivial) reason: lefties only take up a small portion of the population.
-2. Lefties are less consistent (and have more variability) in terms of lateralization.
-
-**Experimental design (for fMRI):**
-
-**Block design**: we do not care about individual objects or faces; we just have tons of stimulation which signals goes up for a long time, and then the HRF will go back to normal. (Will be elaborate in the notes on 20210928.)
-
-**Experimental design (methods):**
-
-| | What the experimenters did | Reasons |
-|---|---|---|
-| **Part I** | Searched for any occipitotemporal areas that might be specialized for face perception. | (1) Anatomically localize candidate "face areas" within individual subjects. (2) Determine if the regions are activated consistently across subjects. (3) Specify precisely the voxels in the subjects' regions of interest (ROI). |
-| **Part II** | Intact two-tone faces vs. Scrambled two-tone faces; Front view of faces vs. Front view of houses | Rule out "low-level features". Rule out "exemplars / subordinate features". |
-| **Part III** | 3/4 faces vs. Human hands; Same as above; but "1-back" | (1) If generalize to different viewpoints (directions). (2) If based on hairs (external features). (3) If respond to any animate or human body part. If the former engages more attention than the latter (because more difficult). |
-
-**3.a and 4.a subjects?**
-
-Data are obtained from different participants (because participants might be bored in the block design), so we need to find the occipitotemporal area specialized for facial processing (the FFA) again.
-
-**Signals**: change of activation from baseline (BOLD-processed).
+## Paper 6: The Fusiform Face Area: A Module in Human Extrastriate Cortex Specialized for Face Perception
 
 ---
 
-## Critique
+## Summary of Key Findings
 
-**Faces vs. House:**
-
-1. Faces have consistencies of shapes (when we average faces, they are still faces), but houses do not.
-2. We are very good individuating faces but not houses.
-   - The "face area" not being activated when individuating houses does not necessarily prove that people do not individuate faces.
-   - Another point can be that FFA is only the area of expertise.
-
-![Greeble novices and experts (Faces, Greebles) brain activations; Faces-objects vs. Cars-objects vs. Birds-objects activations; Greeble object images](images/pdf1-246.ppm)
-
-**1-back:**
-
-Difficulty does not necessarily correlate with attention.
+- Identified a region in the **right fusiform gyrus** (fusiform face area, FFA) that responds **selectively and reliably** to faces versus other stimuli.
+- Used **blocked fMRI** design.
+- Showed significantly greater activation for **intact faces** compared to:
+  - Scrambled faces
+  - Hands
+  - Houses
+  - Other objects
 
 ---
 
-## fMRI Demonstration: In Search of Face Modules in the Brain (No Notes) 2021-09-23
+## Critical Evaluation
 
-![Social media posts by note author (Chinese): Post about visiting the fMRI machine at NYU Abu Dhabi's Computational Research building — the first and only research fMRI in the Gulf region. Commentary about learning fMRI principles over 1.5 years and finally seeing it in person. Also mentions poor performance on the face-processing task (~20% lower accuracy than peers, attributed to sleep deprivation). Instagram post from noa_nostalgia (NYU Abu Dhabi) with similar content.](images/pdf1-255.jpg)
+### Strength 1: Strong experimental controls
 
-![fMRI demonstration screenshot showing class announcement about the in-person fMRI demo, and classroom/lab photos with "Handsome Kartik" caption](images/pdf1-256.jpg)
+- Used **scrambled faces** as a control condition — equates for low-level visual properties (luminance, spatial frequency) while removing face-specific information.
 
-> **Note:** The Chinese text in these social media screenshots translates to:
->
-> *"The Gulf region's first and only research-use functional MRI machine — this is absolutely worth a post.*
->
-> *If it weren't for the pandemic, I probably would have had a chance to see the fMRI machine in my freshman year, and to see it in live demonstration. One and a half years have passed, I've better understood the principles of fMRI, also read more fMRI-related books and papers, and today I finally get to experience it in person, listening to Kartik's clear lectures, experiencing up close the powerful capabilities of the fMRI (scanning the full depths of a human brain in under five minutes, incredible haha).*
->
-> *Attached are also the results of the interesting face processing experiment, as well as my results that were about 20 percentage points lower than my peers — probably because I've been sleep-deprived lately.*
->
-> *And celebrating that I finally have my first in-person class. It has been sooooooooooo long!"*
+### Strength 2: Large effect size
+
+- Activation differences between faces and other categories were large and consistent across participants.
+
+### Limitation 1: Blocked design
+
+- Cannot separate adaptation effects from genuine category selectivity.
+- Participants might be in a different cognitive "mode" during face blocks.
+
+### Limitation 2: Only right hemisphere FFA reported
+
+- Later studies found bilateral FFA, with right > left asymmetry.
+
+### Limitation 3: Correlation ≠ causation
+
+- fMRI shows correlation between FFA activity and face processing.
+- Does not prove FFA is **necessary** for face recognition (lesion evidence or TMS needed).
+
+### Limitation 4: What does "selective" mean?
+
+- FFA responds to faces more than other categories — but also responds (weakly) to objects of expertise.
+- Debate: Is FFA a face module or a **general expert object recognition** module?
+
+---
+
+## The "Face Module" vs. "Expertise" Debate
+
+- **Gauthier et al.**: FFA activated by car experts viewing cars, bird experts viewing birds.
+  - Suggests FFA is for **expert individuation** of visually similar objects, not faces per se.
+- **Kanwisher et al.**: FFA is specifically for faces.
+  - Counter: car/bird expert effects are smaller and inconsistent.
+
+---
+
+## Implications for Prosopagnosia
+
+- Prosopagnosia patients have damage in/around the FFA.
+- Supports FFA as **necessary** for face recognition.
+- But: some prosopagnosics have intact FFA activation (suggesting functional differences from structural damage).
+
+---
+
+## Broader Methodological Points
+
+- **Region of Interest (ROI) analysis vs. Whole-brain analysis**:
+  - ROI: more sensitive, but circular if the ROI was defined using the same data.
+  - Whole-brain: corrects for multiple comparisons, but less sensitive.
+- **The localizer paradigm**: use an independent dataset to define the FFA, then test hypotheses on a separate dataset.

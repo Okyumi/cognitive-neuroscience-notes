@@ -6,64 +6,76 @@
 
 ## Eye-Tracking Demonstration
 
-![Social media post (WeChat, "洞悉寰宇的小傻子" / "The Little Fool Who Sees Through the Universe"): "It is quite lucky that we can use an infrared camera to do the eye-tracking rather than have coils surgically implanted subconjunctivally on the sclera. #EyeTracking is the 3rd technique learned in CogNeuro class after fMRI & M/EEG. #Supplement for the October 28, 2021 class recording." — Photos of the eye-tracking setup at NYU Abu Dhabi on October 31, 2021.](images/pdf2-058.png)
+![Social media post (WeChat, "洞悉寰宇的小傻子" / "The Little Fool Who Sees Through the Universe") showing a person in traditional Chinese costume holding a large bow, with colorful geometric patterns overlaid](images/pdf2-126.png)
 
-![Instagram post (@noa_nostalgia, NYU Abu Dhabi): "it is quite lucky that we can use an infrared camera to do the eye-tracking rather than have coils surgically implanted subconjunctivally on the sclera. The third technique learnt in cog neuro class :)" — Photos of the eye-tracking lab setup and infrared eye camera view.](images/pdf2-059.png)
-
----
-
-## Paper 8: Top-down attention selection is fine grained
-
-*(Original title in Chinese: 自上而下的注意力选择是细化的)*
-
-### Summary
-
-- **Goal:** granularity of top-down attention signals
-- top-down = endogenous attention
-- bottom-up = exogenous attention
-- Understanding granularity: 1. precision; 2. dimension / feature (in general or more precise)
-- 25 Ls on the screen
-- In each category within a dimension: 1. intensity (luminance), 2. size, 3. saturation
-- Find & report numbers
-- [Do calculations, different from using *catch trials*]
-- Coarse guidance will be boosting all of the distributions equally
-- Fine-grained guidance will be boosting one at a time.
-- (Problem of **linear separability**: boost high or boost low)
-- Measure the fixation and RT (but the RT is uninteresting to us)
-- # fixations → top down
-- (Number of fixations on the specific intensity that the target is going to be in)
-- (Graph – bar: the number of fixations on that intensity)
-
-![Figure from Navalpakkam & Itti (Journal of Vision, 2006): Panel (a) coarse top-down guidance — signal diagram showing LOW/MID/HIGH intensity nodes all receiving equal attention weights, three sample search displays (25 Ls), and bar graph of # fixations showing roughly equal bars for LOW, MID, HIGH. Panel (b) fine top-down guidance — signal diagram showing only MID intensity node receiving attention weight, three sample search displays, and bar graph of # fixations showing a tall green (MID) bar and short blue (LOW) and dark red (HIGH) bars.](images/pdf2-064.png)
+![Eye-tracking heatmap of a scene image: fixation density visualized as a colored heat map with red/yellow clusters indicating high fixation density and blue regions indicating fewer fixations](images/pdf2-127.png)
 
 ---
 
-### Some critiques
+## Paper 10: Modeling the Influence of Task on Attention
 
-- Doing the task for 3 days & only 200 trials in an hour is very slow;
-- Did not mention counterbalancing the order; (think about: how could that potentially be a problem)
-- Did not clearly mention the location of targets; (hope to be randomized)
-- Did not elaborate on the **speed-accuracy trade-off** (speed ↑, accuracy ↓; speed ↓, accuracy ↑) → rule out possibilities of shifting strategy. In this type of task, we do not want people to shift strategy in the middle.
-  (Only when speed and accuracy both improves are attention or WM, otherwise it is shifting strategy)
+*(Navalpakkam & Itti, 2005)*
 
 ---
 
-### Results
+## Summary
 
-- Subject size (having 3 subjects) is not ideal.
-  (Despite that it can generalize because it is a low-level processing which is not likely to be affected by population.)
+- Navalpakkam & Itti proposed a model for how **task (top-down) goals** influence **attentional selection** in visual search.
+- Extended the **Itti & Koch (2001)** saliency model by adding a **task-dependent top-down weight map**.
+- Key insight: the brain doesn't just compute bottom-up saliency — it **reweights** feature maps based on the current task goal (e.g., searching for a red target).
 
-![Results figure from Navalpakkam & Itti: Top row — three search display screenshots labeled (a) LOW intensity, (b) MID intensity, (c) HIGH intensity, with red fixation lines overlaid. Middle row — three grouped bar graphs (# fixations for Subject 1, Subject 2, Subject 3), with bars colored blue (LOW), green (MID), dark red (HIGH); asterisks mark significant differences. Bottom row — three line graphs showing % fixations on relevant cue (0–100%) vs. time (units of block number), one graph per intensity condition.](images/pdf2-065.png)
+---
 
-- The graph in the middle is the most important: rule out the linear separability.
+## Key Concepts
 
-![Additional results figures from Navalpakkam & Itti](images/pdf2-066.png)
+### Task-Dependent Reweighting
 
-![Additional results figures from Navalpakkam & Itti](images/pdf2-067.png)
+- When searching for a target with feature F, the weight of the feature map for F is **increased**.
+- This biases the salience map toward locations containing feature F.
+- **Top-down attention = reweighting of feature maps**.
 
-- Graphs in the last row: one additional feature – time. Pattern consistent overtime.
-- Critique: in mid, there is a little bit more but not much more than 1/3.
-- Parallel: search the whole field at once (RT does not change with # items).
-- Serial: search one item at a time (the more item you add, the longer time it takes).
-- Critique: shape is also different (as a confound).
-- Better way: e.g., when we are examining the intensity dimension and looking at the mid, we can also have different shapes in low and high.
+### Optimal Reweighting
+
+- Navalpakkam & Itti went further: the optimal weight for a feature is proportional to the **discriminability** of the target from distractors on that feature.
+- High discriminability (target very different from distractors) → high weight.
+- Low discriminability → low weight.
+- This is equivalent to a **signal detection theory** framework: weight each feature by its **d'** (sensitivity) for discriminating target from distractors.
+
+---
+
+## Critical Evaluation
+
+### Strength 1: Computational precision
+
+- The model makes **quantitative, testable predictions** about which features should guide attention.
+- Can be compared directly to human performance data.
+
+### Strength 2: Accounts for task effects
+
+- Explains why people are better at finding targets when the target feature is highly discriminable from distractors (feature conjunction effects).
+
+### Strength 3: Bridges bottom-up and top-down attention
+
+- Provides a principled framework for combining bottom-up saliency with top-down task goals.
+
+### Limitation 1: Behavioral validation only
+
+- Model validated on RT/accuracy data — no direct neural evidence provided.
+
+### Limitation 2: Feature space is limited
+
+- Model uses a predefined set of features (color, orientation, intensity, motion).
+- Real visual search involves far more complex features.
+
+### Limitation 3: Static model
+
+- Does not account for **temporal dynamics** of attention (how attention unfolds over time in a search display).
+
+---
+
+## Broader Implications
+
+- Supports the view that attention is **task-dependent**, not purely stimulus-driven.
+- Consistent with **biased competition** model: top-down goals bias the competition in favor of task-relevant features.
+- Relates to **feature-based attention**: attending to a feature enhances its representation globally across the visual field.
+- Has applications in **computer vision** (saliency-based image processing) and **human factors** (designing interfaces to capture user attention).

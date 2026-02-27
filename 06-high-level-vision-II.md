@@ -6,216 +6,199 @@
 
 ## Why Study Face Perception?
 
-![Grid of diverse human faces](images/pdf1-186.ppm)
+![Grid of diverse human faces](images/pdf1-186.png)
 
-- Ubiquitous (fundamental & universal) and highly salient stimulus.
-- Key to our survival as social animals.
-- A "model system" for high-level perception?
-- Applications beyond psychology/neuroscience.
-
-**Some behavioral arguments:**
-
-- Faces catch our attention! (In utero!)
-- We see faces though they are noises. (e.g., (◍°∇°◍); man on the moon)
-- Faces are processed holistically and configurally. (Holism & configural processing)
-  - **The Thatcher effect** or **Thatcher illusion** is a phenomenon where it becomes more difficult to detect local feature changes in an upside-down face, despite identical changes being obvious in an upright face.
-  - **Composite face task**: when we combine the top and the bottom half of faces from apparently two different people, they interact with each other to make them seem complete faces.
-    - When aligned with different lower halves, it is surprisingly difficult to recognize that the upper regions of the two composites are identical (left-top). However, the illusion-induced interference is greatly diminished when the composites are misaligned (right-top). When composite arrangements are shown upside-down, little illusion-induced interference is seen in either the aligned (left-bottom) or misaligned (right-bottom) conditions.
-  - **Part-whole illusion**: in this situation, the shape of the mouth affects the perception of, for example, the nose, the eyes, the eyebrows, the width of the face, etc., suggesting that we perceive faces holistically and configurally.
-
-![A: Thatcher illusion (inverted vs. upright faces); B: Composite illusion; C: Part-whole illusion](images/pdf1-187.ppm)
-
-![Composite face task: aligned vs. misaligned, upright vs. inverted, with RT bar chart](images/pdf1-188.ppm)
-
-- Patients show specific face perception deficits (not in any other type of perception)—**prosopagnosia** (face blindness).
-  - When faces are upside down, patient LH can use their spared non-facial processing faculties spared and thus be able to do the task (not as well as the controls but pretty okay). However, when faces are upright, they process the faces as faces and thus perform a lot worse.
-
-![Bar charts: % Correct for patient LH (left) and controls (right) — Upright vs. Inverted face orientation](images/pdf1-189.ppm)
+- Ubiquitous (fundamental & universal) and highly practiced (we are experts).
+- Socially important.
+- Hardwired: we see faces everywhere (pareidolia)!
 
 ---
 
-## Functional Magnetic Resonance Imaging (fMRI)
+## Is Face Perception Special?
 
-![Spatiotemporal scales of neural signals: chart comparing fMRI, EEG, MEG, ECoG, LFP, Optical Imaging, Spikes across time and space axes](images/pdf1-190.jpg)
+- **Special** = a dedicated neural system (possibly with dedicated encoding mechanisms) for face recognition.
 
-![Photo of an MRI scanner in a clinical setting](images/pdf1-191.ppm)
+### Behavioral Evidence: The Face Inversion Effect
 
-- Even though fMRI's spatial and temporal resolution are not as good as other techniques, they are satisfactory enough, and fMRI has the best special coverage—you can measure the entire brain at the same time.
+- Faces are processed holistically — not as a set of features, but as a whole.
+- Inverted faces are much harder to recognize than inverted objects.
 
-### MRI: Nuclear Magnetic Resonance
+![Face inversion effect demonstration: upright vs. inverted faces](images/pdf1-187.png)
 
-- Certain elements can be thought of as properties of magnets.
-- In a piece of tissue, we have billions of nuclei of the hydrogen element which have random orientations.
-  - In a normal state, if you sum up all their orientations, it is a zero.
-  - When you apply a very strong magnetic field (B₀ field), it will align in the parallel or anti-parallel direction.
-    - People wearing pacemakers, bracelets, etc. cannot go in.
+### Behavioral Evidence: The Part-Whole Effect
 
-![Diagrams of proton magnetic moments: random orientation (left), applied B₀ field aligning protons (right)](images/pdf1-192.ppm)
+- Recognition of a face part (e.g., the nose) is better when presented in the context of a whole face than in isolation.
 
-- When a transmit coil sends the right frequencies (rf pulse) of pulse to the protons, they will tip over.
-- When removing the pulse, they will all relax back.
-- With a receive coil, we can measure the signal (energy) where the protons releasing back from being tipped.
+### Behavioral Evidence: The Composite Face Effect
 
-![Transmit and receive coil diagrams with proton tipping and relaxation](images/pdf1-197.ppm)
+- Composite faces (top half of one person + bottom half of another) are very difficult to separate.
+- When the two halves are misaligned, recognition is easier — the holistic processing is disrupted.
 
-- In real life, protons happen to be the best thing for MRI, and protons can come in the forms of hydrogen atoms. We happen to have tons of these in the form of H₂O.
-  - The figure highlights different parts of tissues with different amount of water.
-
-![MRI brain scans showing axial (left) and sagittal (right) views highlighting tissue contrast](images/pdf1-198.ppm)
-
-  - The NMR properties of hydrogen allow us to see contrast that highlights brain structure.
-  - However, we are primarily interested in visualizing brain *function*.
-
-### Functional: Neural Activity → Blood Flow
-
-- The relationship between neural activity and blood flow is complicated and not fully understood.
-- Nevertheless, changes in the properties of blood are indicators of neural activity.
-
-![Diagram: Inference of Neural Signal Estimation — showing pathway from Neuronal Activity → Cerebral Blood Flow → Cerebral Blood Volume → Deoxyhemoglobin Concentration → BOLD fMRI Signal](images/pdf1-199.jpg)
-
-- fMRI, rather than measuring tissue contrast, detects changes in the **blood oxygenation level**.
-  - **Blood oxygenation level-dependent (BOLD)** signal.
-- Hemoglobin has different properties when there are and are not oxygen molecules bounded to it.
-
-![Diagrams: Resting vs. Activated blood vessels (oxygen/hemoglobin); T2* contrast image (functional) and T1 contrast image (structural) brain scans; fMRI signal trace](images/pdf1-200.ppm)
-
-> **T1**: tissue properties; static.
->
-> **T2***: change overtime; has something to do with tiny changes in local magnetic fields.
-
-  - Hemoglobin transports more oxygen to a brain area when activated. When hemoglobin turns from oxygenated to deoxygenated, its magnetic signal changes.
-  - Therefore, by measuring the signal, we can deduct whether the brain area is at rest or firing.
-- The change in neural activity is fast and precise. The change in the blood flow, however, is much slower.
-
-![BOLD response curve over time: initial dip, peak (~5s), post-stimulus undershoot, returning to baseline by ~25s. Stimulus marker at time 0.](images/pdf1-201.ppm)
-
-  - It does not go back to its normal state until about 25 seconds.
-  - The **sluggish nature** of the **hemodynamic response function (HRF)** places very important constraints on the experimental design.
-  - The initial dip is inconsistent and variable. Its mechanism remains disputed, with the two most popular theories being a) increased early metabolic extraction of blood oxygen, and/or b) increased local cerebral blood volume.
-  - The post-stimulus undershoot is variable, most commonly observed in prolonged-stimulus experiments. Its mechanism is disputed, but probably results from both slow recovery of arterial blood volume and a late stimulus- and brain-state-dependent decrease in regional cerebral blood flow.
-
-### fMRI Acquisition
-
-- The subjects can come in for one session or multiple sessions.
-- Within one session, there are multiple runs.
-- In each single run, we require multiple brain volumes.
-  - **Repetition time (TR)**: time required to scan one volume.
-- Brains are scanned in (axial) slices.
-- There are cubic elements (analogous to a pixel) called **voxels** on each slice.
-
-![fMRI data hierarchy: subjects → sessions → runs → single run → volume → slices → voxel; TR = repetition time = time required to scan one volume](images/pdf1-202.ppm)
-
-![Diagram of a single brain slice showing voxel grid; voxel size example: 3.75 mm × 3.75 mm × 5 mm](images/pdf1-203.ppm)
-
-- fMRI volumes acquired in slices (typically axial).
-- A single brain volume takes between 0.75 and 2s to acquire.
-- Collect several brain volumes per condition of interest.
-
-### fMRI Analysis: Subtraction Method
-
-- Bold is a *relative* measure → Always require a comparison condition.
-
-![Subtraction method: Hand Clenching minus Rest → Statistical Parameter Map → Overlay onto Anatomical Image (showing Supplementary Motor Area and Primary Motor)](images/pdf1-204.ppm)
+![Composite face effect demonstration](images/pdf1-188.png)
 
 ---
 
-## Paper 4: Using Human Brain Lesions to Infer Function: A Relic from a Past Era in the fMRI Age? (Using Human Brain Lesions to Infer Brain Function)
+## Neuropsychological Evidence
 
-### Methods Overview
+### Prosopagnosia (Face Blindness)
 
-| Category | Method | Notes |
-|----------|--------|-------|
-| **Electrophysiology** (Good temporal resolution, Poor spatial resolution) | Event related potential (ERP) | — |
-| | Magnetoencephalography (MEG) | — |
-| **Functional imaging** (Good spatial resolution, Poor temporal resolution) | Functional magnetic resonance imaging (fMRI) | — |
-| | Positron emission tomography (PET) | — |
-| | Single proton emission computerized tomography (SPECT) | — |
-| **Interference method** | Lesion method | — |
-| | Transcranial magnetic stimulation (TMS) | — |
+- Can recognize objects (e.g., cars, glasses) but cannot recognize faces.
+- **Double dissociation**: patients who can recognize faces but not objects (visual agnosia) also exist.
 
-### Group Studies Are Important.
+### Capgras Syndrome
 
-Most individual brain injuries involve many functional modules. It is difficult to precisely identify the region required for a particular function.
-- Individual studies cannot / group studies can: precisely identify the brain region required for a specific function.
+- Believes that someone close (family member, friend) has been replaced by an identical impostor.
+- **Disconnection** between the face recognition system and the emotional response system.
 
-Single patients might not represent the general population.
-- Individual studies cannot / group studies can: represent a broader population.
+---
 
-**Template overlay technique**: as individual brains differ in brain shape, size, and structure, brains from different individuals need to be transformed to a standard stereotaxic space to make group comparisons.
-- Due to individual differences in brain shape, size, and structure, a standard stereotaxic space must be established to unify comparisons across individuals.
+## The Fusiform Face Area (FFA)
 
-### The Lesion Method
+- Kanwisher et al. (1997): a region in the right fusiform gyrus responds **selectively to faces** (compared to other objects).
 
-**Definition**
+![Kanwisher FFA fMRI activation maps showing greater activation to faces than objects](images/pdf1-189.png)
 
-Lesion: localizing human brain function by studying the correlation between a behavioral disorder and the location of brain injury.
-- Correlating behavioral disorders and brain injury location to localize brain function.
+---
 
-**Function**
+## fMRI: Functional Magnetic Resonance Imaging
 
-Is seminal for our understanding of functions as diverse as language, memory, hemispheric specialization, emotion, vision, and motor control.
-- Used to understand: language, memory, hemispheric specialization, emotion, vision, motor control.
+### How Does fMRI Work?
 
-**Evidence**
+- **BOLD signal** (Blood Oxygen Level Dependent):
+  - Neural activity → increased metabolic demand → increased blood flow to active region → change in ratio of oxygenated to deoxygenated hemoglobin → MR signal change.
 
-| Brain Region | Function | Reference |
-|-------------|----------|-----------|
-| Left posterior temporal cortex | Language comprehension | (Wernicke) |
-| Medial temporal lobe | Encode long-term memory | — |
-| Left hemisphere | Superior language and arithmetic skills | (Sperry's work with split brain patients) |
-| Right hemisphere | Better spatial skills | (Sperry's work with split brain patients) |
-| Amygdala | Recognize whether faces are expressing fear | — |
-| Left insula & Basal ganglia | Identify disgust | — |
-| Posterior ventral cortex (fusiform gyrus) | Recognize objects | — |
-| Posterior dorsal regions | Integrate visual information with goal-directed motor responses | — |
+![Diagram of the BOLD hemodynamic response function (HRF): showing the undershoot, peak, and return to baseline over time](images/pdf1-190.png)
 
-### Limitation of the Lesion Method
+### The Hemodynamic Response Function (HRF)
 
-Lesion studies assume that discrete anatomical modules deal with different cognitive functions— "modularity" or "localization" assumption. However, many brain functions might be carried out in a distributed manner, with large portions of the brain working in a distributed manner.
-- Brain damage assumes different brain modules process different functions. However, brain function is distributed and plastic.
+- Neural activity → BOLD response peaks ~5 seconds later.
+- Slow compared to neural events.
 
-Most brain damage is not limited by the boundaries of the functional modules.
-- For example, the middle cerebral artery supplies blood to the frontal, temporal, parietal, and occipital cortices. Disruption of this blood flow usually leads to a wide range of deficits.
-- On the other hand, owing to the redundancy of the human brain, small lesions that only partially damage a module might not lead to any obvious behavioral problems.
-  - (Even if the modular view holds) sometimes one lesion destroys a large area, and sometimes a small lesion causes no obvious effect.
+![Example hemodynamic response curves for different brain regions during visual stimulation](images/pdf1-191.png)
 
-The brain shows great anatomical differences between individuals, and show plasticity, with different regions changing their functions in response to damage to one area. The plasticity/reconfiguration is helpful for discovery, but makes it difficult to infer the original function of the healthy brain.
-- Many individual differences exist: individual differences in brain anatomy are large; recovery from injury due to neural plasticity also varies.
+### Spatial Resolution vs. Temporal Resolution
 
-Lesion faces differential vulnerability: some areas are particularly likely to be damaged by stroke. This makes it difficult to interpret lesion overlay plots—is this region specially involved in this behavior or it is simply a commonly damaged zone?
-- "Differential vulnerability": brain injury sites are not randomly distributed, making lesion overlay maps difficult to interpret.
+- **Spatial resolution**: ~1–3 mm (good).
+- **Temporal resolution**: ~2–3 s (poor, limited by HRF).
 
-Brain regions can be disabled but intact after injury (such as impaired by disconnection or information processing).
-- If we test the patients in the acute stage of their illness, we will not be able to accurately identify all the brain regions that are impaired.
-- However, if we wait for these initial problems to resolve, the problems associated with brain plasticity will become more pronounced.
-  - Brain areas may lose function while remaining structurally intact (e.g., disconnection / damage to information processing pathways).
-  - In the acute stage, it is not possible to identify all affected regions.
-  - If we wait, the issue of plasticity becomes more pronounced.
+---
 
-Lesion cannot give us ideas of the temporal sequence of information processing which is crucial for understanding both the stages of processing and the roles of the feedback.
-- Difficult to understand temporal sequence; cannot provide information about processing stages or feedback roles.
+## fMRI Experimental Designs
 
-### Benefits of fMRI
+### Block Design
 
-We can look at the brain of healthy people.
-- Broader subject selection: healthy populations can be studied.
+- Conditions are presented in blocks (e.g., 20 s of faces, 20 s of objects).
+- **Advantages**: high statistical power, simple to analyze.
+- **Disadvantages**: poor temporal resolution; cannot separate individual trials.
 
-We can eliminate the problem of differential vulnerability, plasticity, and disconnection that are associated with the lesion method.
-- Addresses the limitations of brain damage: "differential vulnerability", neural plasticity, and disconnection.
+![Block design fMRI paradigm illustration](images/pdf1-192.png)
 
-fMRI offers better temporal resolution than lesion.
-- Better temporal resolution.
+### Event-Related Design
 
-fMRI can show every part of the network that is involved in a task or a behavior.
-- Shows every part of the network involved in a task/behavior.
+- Individual trials are presented with varying inter-trial intervals.
+- **Advantages**: can isolate individual trial responses; study order effects.
+- **Disadvantages**: lower statistical power.
 
-### Limitations of fMRI
+![Event-related design fMRI paradigm illustration](images/pdf1-193.png)
 
-It is not clear whether this region is necessary to perform this task.
-- Not clearly proven that a region is necessary for the task.
+### Mixed Design
 
-It is even possible that some activated areas have no direct roles in information processing, but are activated because their connection regions are required for the task. (e.g., bilateral activation of language)
-- Areas may not directly participate in task processing but are activated because their connected regions are activated. (e.g., bilateral activation due to language processing)
+- Combines block and event-related designs.
 
-The fMRI technique cannot detect the possible contributions of the regions that are constantly active, regardless of the task.
-- If a region is continuously activated (no change in difference value), fMRI cannot detect it.
+---
+
+## fMRI Analysis
+
+### General Linear Model (GLM)
+
+- The BOLD signal at each voxel is modeled as a linear combination of predictors (regressors).
+- Regressors are created by convolving the stimulus onset function with the HRF.
+
+![GLM analysis schematic: design matrix X, parameter estimates β, and residuals ε](images/pdf1-194.png)
+
+### Statistical Thresholding
+
+- Multiple comparisons problem: ~50,000–100,000 voxels tested.
+- Solutions: Bonferroni correction, FDR (False Discovery Rate), cluster-extent thresholding.
+
+---
+
+## Modularity
+
+- **Modularity** (Fodor, 1983): the mind consists of specialized, encapsulated modules.
+  - Domain-specific: each module processes a specific type of information.
+  - Informationally encapsulated: modules do not have access to each other's computations.
+  - Mandatory operation: cannot choose not to process.
+  - Fast, automatic.
+
+### Evidence For Modularity
+
+- Neuropsychological dissociations (e.g., prosopagnosia, alexia).
+- Neuroimaging: selective activation of regions for specific categories (faces, places, bodies, words).
+
+### Evidence Against Modularity (Distributed Processing)
+
+- fMRI multi-voxel pattern analysis (MVPA): category information is distributed across cortex.
+- "Expertise" effect: FFA also activated by non-face objects of expertise (e.g., cars in car experts).
+
+---
+
+## The Parahippocampal Place Area (PPA)
+
+- Epstein & Kanwisher (1998): a region in the parahippocampal gyrus responds selectively to **places/scenes**.
+
+![PPA fMRI activation maps showing greater activation to places than faces or objects](images/pdf1-195.png)
+
+---
+
+## The Extrastriate Body Area (EBA)
+
+- Downing et al. (2001): a region in the extrastriate cortex responds selectively to **bodies and body parts** (not faces).
+
+---
+
+## The Visual Word Form Area (VWFA)
+
+- Cohen et al. (2000): a region in the left fusiform gyrus responds selectively to **visual words/letter strings**.
+- Activated regardless of font, case, or modality (visual vs. auditory imagination of words).
+
+---
+
+## Top-Down Effects on Visual Processing
+
+- **Attention** modulates activity in visual cortex (even V1).
+- **Expectation/priors** can modulate perception (predictive coding framework).
+
+---
+
+## Object Recognition: Computational Models
+
+### Template Matching
+
+- Compare input to stored templates.
+- Problem: too many templates needed; not viewpoint-invariant.
+
+### Feature Detection
+
+- Detect local features (edges, corners) and combine.
+- Problem: binding problem.
+
+### Deep Neural Networks (DNNs)
+
+- Hierarchical feature extraction similar to the visual cortex.
+- State-of-the-art performance on object recognition tasks.
+- V1 ↔ early conv layers; IT ↔ later conv layers.
+
+---
+
+## The Binding Problem
+
+- How does the brain combine separately processed features (color, shape, motion) into a coherent percept?
+- **Feature Integration Theory** (Treisman): features are bound by **focused spatial attention**.
+
+---
+
+## Change Blindness and Inattentional Blindness
+
+- **Change blindness**: failure to detect changes in a scene when visual attention is diverted.
+- **Inattentional blindness**: failure to notice an unexpected object when attention is focused elsewhere (e.g., gorilla experiment).

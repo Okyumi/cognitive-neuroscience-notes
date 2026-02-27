@@ -142,19 +142,19 @@
 - Personality is predicted from bumps on the scalp.
 - Localization of function taken to an extreme conclusion.
 
-![Phrenology head diagram showing personality trait regions mapped to areas of the skull](images/pdf1-075.ppm)
+![Phrenology head diagram showing personality trait regions mapped to areas of the skull](images/pdf1-075.png)
 
 ### Lesions
 
 - Function can be inferred by examining patients with brain lesions.
 
-![Lateral view of the human brain showing cortical regions](images/pdf1-076.ppm)
+![Lateral view of the human brain showing cortical regions](images/pdf1-076.png)
 
 ### Neuroimaging (~1990)
 
 - Functions can be associated with brain activity measured in behaving animals.
 
-![Brain scan showing activation (colored regions) during finger-tapping mission — an example of neuroimaging localizing brain function](images/pdf1-077.ppm)
+![Brain scan showing activation (colored regions) during finger-tapping mission — an example of neuroimaging localizing brain function](images/pdf1-077.png)
 
 *(Finger-tipping mission)*
 
@@ -167,7 +167,7 @@
 - **Amount of damage, not location of damage, predicted memory deficits.**
   - In Lashley's experiments, rats were trained to run through a maze, and then tissue was removed from their cerebral cortex. Increasing the amount of tissue removed increased the degradation of memory, but more remarkably, where the tissue was removed from made no difference.
 
-![Grid chart of Lashley's maze experiment data showing increasing memory deficit with increasing amount of cortical tissue removed, regardless of location](images/pdf1-078.ppm)
+![Grid chart of Lashley's maze experiment data showing increasing memory deficit with increasing amount of cortical tissue removed, regardless of location](images/pdf1-078.png)
 
 ### Neuroimaging
 
@@ -175,9 +175,9 @@
   - **In blind subjects, the occipital lobe is activated when touching things.**
   - The networks span largely across the brain.
 
-![Brain scans showing distributed network activation — occipital lobe activity in blind subjects during tactile tasks](images/pdf1-079.ppm)
+![Brain scans showing distributed network activation — occipital lobe activity in blind subjects during tactile tasks](images/pdf1-079.png)
 
-![Colored connectivity map of the brain showing large-scale distributed neural networks](images/pdf1-080.ppm)
+![Colored connectivity map of the brain showing large-scale distributed neural networks](images/pdf1-080.png)
 
 ---
 
@@ -188,9 +188,9 @@
 - **Left**: hydrocephalus, cerebrospinal fluid (CSF) builds up in the ventricle, but have a relatively normal IQ.
 - **Right**: traumatic injury, coma, with impaired brain function.
 
-![Brain CT scans: left showing hydrocephalus with enlarged ventricles; right showing traumatic brain injury](images/pdf1-083.ppm)
+![Brain CT scans: left showing hydrocephalus with enlarged ventricles; right showing traumatic brain injury](images/pdf1-083.png)
 
-![Additional brain scan images of neurological patients](images/pdf1-084.ppm)
+![Additional brain scan images of neurological patients](images/pdf1-084.png)
 
 ---
 
@@ -201,7 +201,7 @@
 - Use recording electrode; APs recorded as "spikes" by extracellular electrodes.
 - Spike frequency tells us about the activity of a neuron.
 
-![Diagram of action potential waveform (showing resting potential ~-70mV, depolarization to +30mV) and spike train recording showing increasing spike frequency](images/pdf1-099.ppm)
+![Diagram of action potential waveform (showing resting potential ~-70mV, depolarization to +30mV) and spike train recording showing increasing spike frequency](images/pdf1-099.png)
 
 ### Local Field Potential: (summed post-synaptic potentials)
 
@@ -209,7 +209,7 @@
 - Rather, what is recorded is the **local field potential (LFP)**, a reference to the fact that it's the local region of cortex where these dendrites are located (i.e., the "dendritic field") from which the signal is being measured.
 - **LFP amplitude and frequency tell us about the amount of coordinated activity in a population of neurons.**
 
-![Diagram (Panel B) showing a cortical column with layers I–VI, illustrating extracellular recordings including LFP+EAP signal and EAP alone, compared with intracellular recording; shows signal amplitude scale of 0.3 mV, 0.04 mV, 80 mV and timescale of 40 ms](images/pdf1-100.ppm)
+![Diagram (Panel B) showing a cortical column with layers I–VI, illustrating extracellular recordings including LFP+EAP signal and EAP alone, compared with intracellular recording; shows signal amplitude scale of 0.3 mV, 0.04 mV, 80 mV and timescale of 40 ms](images/pdf1-100.png)
 
 - **From the professor:**
   - What we record from extracellular electrodes is the signal which includes both the LFP and the APs as measured extracellularly. They are already added, and we need to decompose them in order to look at each one separately.
@@ -230,9 +230,9 @@
 
 ### The Logic of the Lesion Method
 
-![Diagram showing the lesion method logic: top — input (image of a house) → damaged/lesioned brain (black box with broken connections) → output (no verbal response, indicated by "..."); bottom — input (image of a house) → intact brain with labeled components (visual input, motor output, object knowledge, task knowledge) → output ("house")](images/pdf1-105.ppm)
+![Diagram showing the lesion method logic: top — input (image of a house) → damaged/lesioned brain (black box with broken connections) → output (no verbal response, indicated by "..."); bottom — input (image of a house) → intact brain with labeled components (visual input, motor output, object knowledge, task knowledge) → output ("house")](images/pdf1-105.png)
 
-![Continuation of the lesion method diagram showing the intact brain's internal functional components: visual input, motor output, object knowledge, and task knowledge, linking input to correct output "house"](images/pdf1-106.ppm)
+![Continuation of the lesion method diagram showing the intact brain's internal functional components: visual input, motor output, object knowledge, and task knowledge, linking input to correct output "house"](images/pdf1-106.png)
 
 ### Advantages and Disadvantages
 
@@ -243,9 +243,9 @@
 | (Not only **involvement** but also **necessity**.) | Rely on the localization assumption — across individuals and time; does not account for white matter damage. |
 | | Finding an appropriate control group is challenging. |
 
-![Diagram illustrating advantages of the lesion method: straightforward logic and ability to support strong inferences about brain function localization](images/pdf1-107.ppm)
+![Diagram illustrating advantages of the lesion method: straightforward logic and ability to support strong inferences about brain function localization](images/pdf1-107.png)
 
-![Diagram illustrating disadvantages of the lesion method: challenges to implementing, at the whim of nature, reliance on localization assumption, and difficulty finding appropriate control group](images/pdf1-108.ppm)
+![Diagram illustrating disadvantages of the lesion method: challenges to implementing, at the whim of nature, reliance on localization assumption, and difficulty finding appropriate control group](images/pdf1-108.png)
 
 ---
 

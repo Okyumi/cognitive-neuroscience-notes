@@ -8,7 +8,7 @@
 
 - Neuroscience with direct implications for understanding **human behavior** with an emphasis on **higher-order functions**.
 
-![Venn diagram showing cognitive neuroscience at the intersection of cognitive psychology, behavioral/systems neuroscience, and clinical psychology/neuroscience](images/pdf1-048.ppm)
+![Venn diagram showing cognitive neuroscience at the intersection of cognitive psychology, behavioral/systems neuroscience, and clinical psychology/neuroscience](images/pdf1-048.png)
 
 - The question of **construct validity** will be important for every domain of behavior in cognitive neuroscience.
   - Construct validity is the extent to which the measure 'behaves' in a way consistent with theoretical hypotheses and represents how well scores on the instrument are indicative of the theoretical construct.
@@ -26,13 +26,13 @@
 
 ## Key Languages Navigating the Brain:
 
-![Diagram of anatomical planes: horizontal/axial, sagittal, and coronal cross-sections of the human brain and body](images/pdf1-049.ppm)
+![Diagram of anatomical planes: horizontal/axial, sagittal, and coronal cross-sections of the human brain and body](images/pdf1-049.png)
 
-![Mouse diagram showing anatomical directional terms: dorsal, ventral, rostral, caudal](images/pdf1-051.ppm)
+![Mouse diagram showing anatomical directional terms: dorsal, ventral, rostral, caudal](images/pdf1-051.png)
 
-![Human brain sagittal diagram showing directional terms: dorsal, ventral, rostral, caudal](images/pdf1-052.ppm)
+![Human brain sagittal diagram showing directional terms: dorsal, ventral, rostral, caudal](images/pdf1-052.png)
 
-![Human head profile with arrows indicating dorsal/ventral and lateral/medial directions on the brain](images/pdf1-053.ppm)
+![Human head profile with arrows indicating dorsal/ventral and lateral/medial directions on the brain](images/pdf1-053.png)
 
 **Key anatomical orientation terms:**
 
@@ -43,7 +43,7 @@
 - **medial/lateral**
 - **proximal/distal**
 
-![Three reference brain scan images: axial/horizontal view, sagittal view, and coronal view](images/pdf1-054.ppm)
+![Three reference brain scan images: axial/horizontal view, sagittal view, and coronal view](images/pdf1-054.png)
 
 | Term | Chinese Translation |
 |------|-------------------|
@@ -57,9 +57,9 @@
 | Medial/Lateral | Middle / Lateral |
 | Proximal/Distal | Near end / Far end |
 
-![Diagram showing dorsal and ventral directions on a rodent body](images/pdf1-055.ppm)
+![Diagram showing dorsal and ventral directions on a rodent body](images/pdf1-055.png)
 
-![Diagram showing rostral, caudal, dorsal, and ventral directions on the human brain from a lateral view](images/pdf1-056.ppm)
+![Diagram showing rostral, caudal, dorsal, and ventral directions on the human brain from a lateral view](images/pdf1-056.png)
 
 ---
 

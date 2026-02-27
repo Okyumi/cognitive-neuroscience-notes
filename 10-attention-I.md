@@ -6,188 +6,157 @@
 
 ## What is attention?
 
-- "Everyone knows what attention is. It is the taking possession by the mind, in clear and vivid form, of one out of what seem several possible objects or trains of thought. It implies withdrawal from some things in order to deal effectively with others". – William James, 1890
-- The ability to focus our processing resources on a subset of our internal or external environment.
+- "Everyone knows what attention is. It is the taking possession by the mind, in clear and vivid form, of one out of what seems several simultaneously possible objects or trains of thought." — William James (1890)
+- More technically: selective processing of relevant information and suppression of irrelevant information.
 
 ---
 
-## Change blindness
+## Types of Attention
 
-- Change blindness is a phenomenon of visual perception that occurs when a stimulus undergoes a change without this being noticed by its observer.
-- To date, the effect has been produced by changing images displayed on screen as well as changing people and objects in an individual's environment.
-- Attention allows us to manage such an overlook. It narrows down the field for us and allows us to focus out processing of resources on some subsets of the environment.
+### Spatial (or Selective) Attention
 
----
+- Attending to a **location** in space.
+- **Overt**: move your eyes (saccade) to the attended location.
+- **Covert**: attend without moving eyes.
 
-## Taxonomy of attention
+### Feature-Based Attention
 
-- What types of things are we able to pay attention to?
-  - The ability to focus our processing resources on a subset of our internal or external environment.
-    - Vision, sound, taste, touch, feelings, thoughts, memories…
-- What drives our attention?
-  - **Exogenous attention: stimulus-driven attention. (Bottom-up)**
-    - Directed to salient information in our environment.
+- Attending to a **feature** (e.g., color, orientation) across the visual field.
 
-![Fire alarm – example of exogenous (stimulus-driven) attention](images/pdf1-340.png)
+### Object-Based Attention
 
-  - **Endogenous attention: goal-driven attention. (Top-down)**
-    - Directed to information relevant for our goals.
+- Attending to an **object** rather than a location or feature.
 
-![Where's Waldo – example of endogenous (goal-driven) attention](images/pdf1-341.png)
+### Temporal Attention
 
-  - Both forms of visual attention are independent of eye movements! (confound)
-  - Neither form has something to do with early or late selection. (Will be elaborated later)
+- Attending to a **moment in time**.
 
 ---
 
-## Attention in Two Parts
+## Cognitive Models of Attention
 
-- **Part I**: how does attention change how we process information?
-  - What are the *consequences* of attention for **behavior** and sensoriperceptual processing in the brain?
-- **Part II**: how do we select what we want to attend to in our environment?
-  - Endogenous attention: goal-driven attention:
+### Early Selection (Broadbent, 1958)
 
-![Taxonomy of attention diagram: Location, Feature, Object](images/pdf1-342.png)
+- Filtering occurs **before** full perceptual analysis.
+- The bottleneck is at the sensory level.
 
-![Posner spatial cueing paradigm](images/pdf1-343.png)
+![Broadbent's filter model of selective attention: sensory input → filter (selects based on physical properties) → limited capacity channel → response](images/pdf2-090.png)
 
----
+### Late Selection (Deutsch & Deutsch, 1963)
 
-## Part I
+- All stimuli are processed to the level of **meaning** before selection.
+- The bottleneck is at the response/memory level.
 
-![Arrow cue paradigm – arrow indicating direction of attention](images/pdf1-350.png)
+### Attenuation Model (Treisman, 1964)
 
-- The arrow indicates which side people should direct their attention to.
-- The gaze should be fixed on the arrow. (To disassociate people's attention from the center of their gaze/vision.)
-- Thought question: is "fixing the attention & changing the stimuli" or "fixing the stimuli & changing the attention" better?
-  - The latter one because the sensory inputs remain the same.
+- Unattended stimuli are **attenuated** (not eliminated).
+- Unattended stimuli can break through if they are personally significant (e.g., your own name).
 
----
+### Capacity / Resource Models
 
-## Consequences of Attention
-
-- Better detection & discrimination.
-  - Detection: was a dot present or not?
-  - Discrimination: was a line tilted L or R?
-
-![Bar graphs showing accuracy (% correct), reaction time, and threshold (brightness/tilt) for attended vs. unattended locations](images/pdf1-351.png)
-
-(Or how much is a tilt)
-
-- Even though the visual stimulation is identical between these two, the focus of attention causes some differences.
-- **Important consequence:** we have worse* detection and discrimination for unattended information!
-  - Push/pull mechanism. (Just like what William James said)
-- Thought question: Can we really say this (attention is worse) from the data given? Why or why not?
-  - No. We need a neutral condition where the attention is directed at the center of the screen (to determine better/worse).
-
-![Additional attention paradigm figures](images/pdf1-352.png)
-
-![Additional attention paradigm figures](images/pdf1-353.png)
+- Kahneman (1973): attention as a **limited resource** that can be flexibly allocated.
+- Multiple resource theory (Wickens): separate pools of resources for different processing modalities.
 
 ---
 
-## Local Field Potential (LFP)
+## Posner Cueing Paradigm
 
-- LFP amplitude and frequency tell us about the amount of coordinated activity in a population of neurons.
+- Posner (1980): spatial cues precede targets.
+  - **Valid cue**: cue correctly predicts target location.
+  - **Invalid cue**: cue incorrectly predicts target location.
+  - **Neutral cue**: no spatial information.
+- **Result**: valid cue → faster RT; invalid cue → slower RT.
+- Demonstrates **covert spatial attention**.
 
-## Measuring "LFPs" in Humans
-
-![Diagram comparing scalp EEG (6cm²), MEG (3cm²), and ECoG — showing signal decay through skull, according to distance, and that ECoG is most accurate (invasive)](images/pdf1-358.png)
-
----
-
-## EEG
-
-- EEG works by putting electrodes on the surface of the scalp. The LFP that happens at the surface of the brain, despite filtered by the skin and the brain tissues and thus decayed dramatically, can still be measured by the sensitive electrodes. The neural signals are very weak, so they can only be measured when a lot of neurons are measured in coordination. There is a spatial filter: the signal gets spread over the whole skull, so it is impossible to tell where the signal arose from.
-- Metal electrodes are attached to an elastic cap.
-- Conducting gel is applied to connect electrodes to the scalp.
-- EEG works the best for neurons that align perpendicular to the scalp.
-- **Advantages:**
-  - Excellent temporal resolution.
-  - Relatively cheap. (The whole set up costs ~$30-40k, but once you have the set-up, per new subject you are only paying the gel, wires, electricity, etc.)
-- **Disadvantages:**
-  - Poor spatial resolution: if you know the source (what happens in the brain), you can predict the activity at the scalp. However, you cannot go the other way around: you cannot predict the source from the activity. (Analogy: shadows) It is mathematically impossible to do the counter-deduction.
-
-![Photo of a person wearing an EEG cap](images/pdf1-359.png)
-
-![Photos of different EEG electrode types: Tin plated, Tin (pure), Silver, Silver/Silver chloride, Gold plated](images/pdf1-360.png)
+![Posner cueing paradigm: central arrow cue (endogenous) or peripheral flash cue (exogenous) precedes target at valid or invalid location](images/pdf2-091.png)
 
 ---
 
-## MEG
+## Endogenous vs. Exogenous Attention
 
-- When there is an electrical current, there is a corresponding magnetic field. MEG measures the magnetic field generated by the electrical current. The sensor, rather than being put on the surface of the skull, is located outside and filled by liquid helium.
-- SQUIDs located within the MEG dewar detect fluctuations in the magnetic field.
-- MEG can better pick up on different types of sources from different brain regions that are oriented differently with respect to the scalp (and thus getting complementary information).
-- **Advantages:**
-  - Excellent temporal resolution.
-  - Moderate spatial resolution. (Source reconstruction)
-- **Disadvantages:**
-  - Expensive. (Replacing liquid helium)
-
-![Photo of a person in MEG scanner](images/pdf1-361.png)
-
-![Front view of MEG sensor array](images/pdf1-362.png)
-
-![MEG source reconstruction brain map with strength index color scale (0.314 – 3.14)](images/pdf1-363.png)
+- **Endogenous (voluntary)**: top-down, goal-directed. Cue at fixation (e.g., arrow).
+  - Slower to deploy (~300 ms), long-lasting, overrideable.
+- **Exogenous (automatic)**: bottom-up, stimulus-driven. Peripheral onset.
+  - Faster to deploy (~100 ms), short-lasting, not overrideable.
 
 ---
 
-## M/EEG
+## Attention and Eye Movements
 
-Now what? How do we get meaningful info about the brain from the M/EEG signal?
-
-1. Event-related averaging.
-2. Decomposition: time-frequency analyses.
-
-![Raw M/EEG signal trace showing amplitude over time — large deflections likely correspond to muscle movements](images/pdf1-364.png)
-
-- The huge changes happened at the same time are probably muscle movements. (Make subjects try not to move.)
+- **Pre-motor theory**: covert attention shifts precede and are linked to eye movements (saccades).
+- Suppressing a saccade to a location also suppresses covert attention to that location.
 
 ---
 
-### 1. Event-Related Averaging
+## Visual Search
 
-- Our goal is to measure neural signal, i.e., the brain's response to a particular stimulus or operation the challenge is that this signal is always embedded in noise.
-  - What is noise?
-    - The stuff that happening which we are not interested in measuring.
-    - Noise is relative. (The noise in my experiment might be the measurement in your experiment.)
-  - How do we remove it?
-    - Eliminate outside interference as best we can. (Electrically-shielded rooms)
-    - Experimental design.
-    - **Signal averaging. (Noises will cancel out when averaging.)**
+- **Feature search** (pop-out): target defined by a single feature (e.g., red among greens). RT independent of set size → **parallel search**.
+- **Conjunction search**: target defined by combination of features (e.g., red vertical among red horizontals and green verticals). RT increases with set size → **serial search**.
 
-![Signal averaging diagram: trial-by-trial EEG traces (trials 1–9) with averaged signal (a), averaged noise (b), and averaged signal + noise (c); plus panels showing averaging over 5, 10, 20, and 83 epochs](images/pdf1-365.png)
+![Visual search stimuli: feature search (red among green) and conjunction search (red vertical among red horizontal and green vertical distractors)](images/pdf2-093.png)
 
 ---
 
-### 2. Time-Frequency: Decomposition
+## EEG and MEG
 
-- Any continuous signal that varies in time can be thought of as a combination of sinusoids.
-  - The signal can be decomposed into these sinusoids and we can study how each sinusoid changes as a function of mental function.
+### EEG (Electroencephalography)
 
-![Time-frequency decomposition: showing how a complex signal (red) can be decomposed into constituent sinusoids (green)](images/pdf1-370.png)
+- Measures **electric potential** on the scalp due to synchronous firing of pyramidal neurons.
+- **Advantages**: millisecond temporal resolution, low cost, portable.
+- **Disadvantages**: poor spatial resolution (~1 cm); volume conduction problem.
 
-![Time-frequency decomposition: additional example showing sinusoidal decomposition of a signal](images/pdf1-371.png)
+### MEG (Magnetoencephalography)
+
+- Measures **magnetic fields** generated by intracellular currents in neurons.
+- **Advantages**: millisecond temporal resolution; better spatial resolution than EEG (not affected by skull); more sensitive to tangential sources.
+- **Disadvantages**: expensive, large, magnetically shielded room required.
 
 ---
 
-## M/EEG frequency bands
+## Event-Related Potentials (ERPs)
 
-- M/EEG frequency bands:
+- **ERP**: average of EEG signal time-locked to stimulus onset across many trials.
+- **Averaging** cancels out noise → reveals stimulus-locked neural response.
 
-![Comparison of EEG Bands: Gamma (30-100+ Hz), Beta (12-30 Hz), Alpha (8-12 Hz), Theta (4-7 Hz), Delta (0-4 Hz)](images/pdf1-372.png)
+### Key ERP Components for Attention
 
-![Diagram illustrating change in phase (two sinusoids shifted in time) vs. change in amplitude (two sinusoids with different heights)](images/pdf1-373.png)
+- **P1** (positive, ~100 ms, occipital): **enhanced** by spatial attention at the attended location.
+- **N1** (negative, ~150–200 ms, occipital): enhanced by spatial attention.
+- **P300** (positive, ~300 ms, parietal): occurs to rare, task-relevant targets (attention + working memory).
+- **N2pc** (negative, ~200–250 ms, posterior contralateral): index of **attentional selection** of a target among distractors. Lateralized to contralateral side of attended item.
 
-- It turns out that different frequency bands of the EEG signal are **physiologically meaningful**.
-  - Gamma: action potentials.
-  - Alpha: inhibitory processing.
+![ERP components in a spatial attention task: P1, N1 enhancement for attended vs. unattended stimuli](images/pdf2-094.png)
 
-![Additional M/EEG frequency band figures](images/pdf1-374.png)
+---
 
-![Additional M/EEG frequency band figures](images/pdf1-375.png)
+## Neural Oscillations and Attention
 
-![Additional M/EEG frequency band figures](images/pdf1-376.png)
+- **Alpha (8–12 Hz)**: associated with **suppression** of unattended regions.
+  - Alpha power increases contralateral to the unattended location.
+  - Alpha power decreases contralateral to the attended location.
+- **Gamma (>30 Hz)**: associated with **active processing** in attended regions.
+- **Beta (13–30 Hz)**: associated with **maintaining** the current cognitive/motor state.
 
-![Additional M/EEG frequency band figures](images/pdf1-377.png)
+---
+
+## Spatial Attention Effects in Visual Cortex (fMRI)
+
+- Attending to a location **enhances** BOLD response in retinotopic areas corresponding to that location.
+- Effects found as early as V1.
+- Attentional effects are **multiplicative** (gain modulation) rather than additive.
+
+---
+
+## Top-Down vs. Bottom-Up Attention
+
+- **Top-down (endogenous)**: driven by current goals and expectations (frontal + parietal → visual cortex).
+- **Bottom-Up (exogenous)**: driven by salient physical properties of stimuli (visual cortex → frontal + parietal).
+
+---
+
+## Fronto-Parietal Attention Network
+
+- **Dorsal attention network (DAN)**: FEF (frontal eye fields) + IPS (intraparietal sulcus). Top-down, goal-directed attention.
+- **Ventral attention network (VAN)**: TPJ (temporoparietal junction) + VFC (ventral frontal cortex). Bottom-up, stimulus-driven reorienting.
+
+![Fronto-parietal attention network: dorsal (DAN, blue) and ventral (VAN, orange) components on lateral cortical surface](images/pdf2-096.png)

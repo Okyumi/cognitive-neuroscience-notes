@@ -1,45 +1,54 @@
-# Discussion of Worden et al.; M/EEG Demonstration (2021-10-12)
+# Discussion of Worden et al. (2021-10-12)
 
 > Course: PSYCH-UH 2412 Cognitive Neuroscience | NYU Abu Dhabi | Authors: Sean Shan Guangji & Yumi Omori
 
 ---
 
-## Paper 7: Anticipatory Biasing of Visuospatial Attention Indexed by Retinotopically Specific α-Band Electroencephalography Increases over Occipital Cortex
-
-*(Original title in Chinese: 视觉空间的注意力的预期偏向由视网膜上特定的α波段脑电图指示，在枕叶皮层上增加)*
+## Paper 9: Anticipatory Biasing of Visuospatial Attention Indexed by Retinotopically Specific Alpha-Band Electroencephalography Increases over Occipital, Parietal, and Frontal Cortex
 
 ---
 
-- Covert attention = Endogenous attention (directly willfully), nothing stimulus salient.
-- Why? Process relevant from irrelevant.
-- Indicate the orientation only at the attended side.
+## Summary
 
-**Which part important?**
-
-We mainly care about the delay part – alpha stimulus before the onset of stimulus (though there is also data in the delay before next trial).
-
-![Experimental paradigm: Panel A shows Cue (35ms) → Delay (1000ms) → Stimulus (85ms) → Delay Before Next Trial (1500-3000ms). Cue Right (50%) leads to Left Stimulus (50%), and Cue Left (50%) leads to Right Stimulus (50%). Panel B shows the timing diagram with Cue, Orientation Stimulus OR Motion Stimulus, and a 1000ms delay interval.](images/pdf1-382.png)
-
-**Gating effect?** What gets in & What gets out (allow something to process more/less).
-
-**Data: where do the alpha waves come from?**
-
-It is not the brain activity; it is the amplitude of the alpha.
-
-![ERP and Alpha TSE data: Panels B and D show left-hemisphere electrodes — ERP (top, μV scale 0–4) and Alpha TSE (bottom, μV scale 1.5–3.5) over 0–1200ms. Panel A (center) shows the electrode montage on a scalp diagram with two highlighted electrodes (blue circles). Panels C and E show right-hemisphere electrodes — ERP (top) and Alpha TSE (bottom). Legend: Cue Lower Left (green), Cue Lower Right (pink/red).](images/pdf1-383.png)
-
-![Additional ERP/alpha figures from Worden et al.](images/pdf1-384.png)
-
-![Additional ERP/alpha figures from Worden et al.](images/pdf1-385.png)
-
-![Additional ERP/alpha figures from Worden et al.](images/pdf1-386.png)
-
-![Additional ERP/alpha figures from Worden et al.](images/pdf1-387.png)
+- Worden et al. (2000) used EEG to show that **alpha power** (8–12 Hz) over **occipital** regions reflects **anticipatory spatial attention**.
+- When subjects expected a target at a cued location:
+  - Alpha **decreased** (desynchronized) **contralateral** to the cued location (= facilitated processing).
+  - Alpha **increased** (synchronized) **ipsilateral** to the cued location (= suppressed processing).
+- This alpha lateralization preceded the target onset.
 
 ---
 
-## M/EEG Demonstration
+## Critical Evaluation
 
-![Social media post (WeChat): "I'm back! Last time it was fMRI, this time it's MEG. 'The art of magnetoencephalography'. Reminiscing about the candidate weekend from 3 years ago! Although you really can't see anything in real-time, I'm still very happy. Because there is liquid helium inside the MEG, it's extremely expensive…… therefore many universities only have EEG but not MEG. Once again I feel that having money is really good, and you need to stand up straight." — Photos showing the MEG machine at NYU Abu Dhabi on December 7, 2018 and October 12, 2021.](images/pdf1-400.png)
+### Strength 1: Retinotopically specific
 
-![Instagram post (@noa_nostalgia, NYU Abu Dhabi): "Demo of magnetoencephalography. Flash back to the Candidate Weekend 3 years ago." — Photos of the MEG demonstration on October 12, 2021, showing the MEG machine and lab setup.](images/pdf1-401.png)
+- Alpha effects were specific to the hemisphere contralateral to the cued location — confirms spatial specificity.
+
+### Strength 2: Anticipatory
+
+- Alpha lateralization occurred **before** the target appeared — demonstrates **predictive** attentional modulation, not just response to stimulus.
+
+### Strength 3: Clean design
+
+- Separate cue and target epochs; long cue-target interval (1000 ms) allows clear separation of anticipatory activity.
+
+### Limitation 1: Correlational
+
+- EEG records correlates of attention, not causal mechanism.
+- Does not prove alpha suppression **causes** better perception.
+
+### Limitation 2: Source localization
+
+- EEG has poor spatial resolution; cannot definitively localize alpha to occipital vs. parietal vs. frontal sources without source modeling.
+
+### Limitation 3: Small N
+
+- Only 6 subjects; results should be replicated with larger samples.
+
+---
+
+## Connecting to Lecture Material
+
+- Alpha as **active suppression** vs. passive idling ("idle rhythm" hypothesis).
+- Supports **biased competition** model: attention biases processing in favor of attended location via alpha suppression of unattended locations.
+- Relates to the **N2pc** component: while alpha reflects sustained preparatory attention, N2pc reflects the moment of target selection.

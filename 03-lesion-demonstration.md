@@ -14,11 +14,11 @@
 - May get frustrated with others due to **lack of awareness** of difficulties.
 - Typically due to damage to **left posterior superior temporal gyrus**, "Wernicke's area".
 
-![Portrait photograph of Carl Wernicke, the neurologist who first described Wernicke's aphasia](images/pdf1-113.jpg)
+![Portrait photograph of Carl Wernicke, the neurologist who first described Wernicke's aphasia](images/pdf1-113.png)
 
-![3D rendered brain showing the location of Wernicke's area highlighted in red on the left posterior superior temporal gyrus](images/pdf1-114.jpg)
+![3D rendered brain showing the location of Wernicke's area highlighted in red on the left posterior superior temporal gyrus](images/pdf1-114.png)
 
-![Photograph of a real human brain specimen showing the left hemisphere with the posterior superior temporal region associated with Wernicke's aphasia](images/pdf1-119.ppm)
+![Photograph of a real human brain specimen showing the left hemisphere with the posterior superior temporal region associated with Wernicke's aphasia](images/pdf1-119.png)
 
 ---
 
@@ -32,11 +32,11 @@
 - May get frustrated with themselves (and depressed) due to **awareness** of difficulties.
 - Typically due to damage to the **left posterior inferior frontal gyrus**, "Broca's area".
 
-![Portrait photograph of Paul Broca, the surgeon and anatomist who first described Broca's aphasia](images/pdf1-120.ppm)
+![Portrait photograph of Paul Broca, the surgeon and anatomist who first described Broca's aphasia](images/pdf1-120.png)
 
-![3D rendered brain showing the location of Broca's area highlighted in red on the left posterior inferior frontal gyrus](images/pdf1-122.ppm)
+![3D rendered brain showing the location of Broca's area highlighted in red on the left posterior inferior frontal gyrus](images/pdf1-122.png)
 
-![Photograph of a real human brain specimen showing the left hemisphere with the frontal region associated with Broca's aphasia](images/pdf1-123.ppm)
+![Photograph of a real human brain specimen showing the left hemisphere with the frontal region associated with Broca's aphasia](images/pdf1-123.png)
 
 ---
 
@@ -45,7 +45,7 @@
 - **Left (Wernicke's aphasia)**: fluent writing with runs of words, but the content is largely meaningless or jargon-filled.
 - **Right (Broca's aphasia)**: sparse, telegraphic writing — individual words with great effort (e.g., "Ciga- the smoke it, comb. Hair, Fork. The eat out, Key. the unlocks, Knife.- Butter up. Match Light Fires, Pen. Write Letter, Pencil Write and Erasing").
 
-![Handwriting sample from a patient with Wernicke's aphasia: fluent cursive text that reads as flowing prose but lacks meaningful content — "c Aen most grenk bir Milk, Saven ants Kacl a pick nicks on my ham sandwich, What are you too doing bir, The Flowrs have manny buds o tham, Some piple come to ever day My Inurep."](images/pdf1-121.jpg)
+![Handwriting sample from a patient with Wernicke's aphasia: fluent cursive text that reads as flowing prose but lacks meaningful content — "c Aen most grenk bir Milk, Saven ants Kacl a pick nicks on my ham sandwich, What are you too doing bir, The Flowrs have manny buds o tham, Some piple come to ever day My Inurep."](images/pdf1-121.png)
 
 ---
 
@@ -66,7 +66,7 @@
   - Deficits in **global processing**. (They can see the trees, but not the forests.)
   - Typically due to damage to the **right parietal cortex** (and thus the neglect/extinction on the left field).
 
-![Brain MRI axial scan series showing two patients (UNP2 at slices 7–27; UNP3 at slices 21–41) with right parietal cortex lesions that cause left-sided neglect and extinction](images/pdf1-119.ppm)
+![Brain MRI axial scan series showing two patients (UNP2 at slices 7–27; UNP3 at slices 21–41) with right parietal cortex lesions that cause left-sided neglect and extinction](images/pdf1-119.png)
 
 ---
 
