@@ -1,6 +1,9 @@
 name: Upload Images
 
 on:
+  push:
+    paths:
+      - '.github/workflows/upload-images.yml'
   workflow_dispatch:
 
 permissions:
@@ -29,5 +32,7 @@ jobs:
           git config user.name "Okyumi"
           git config user.email "yd2247@nyu.edu"
           git add images/
-          git commit -m "Add extracted course note images (453 PNG files)"
+          git status
+          git diff --cached --stat
+          git commit -m "Add extracted course note images (453 PNG files)" || echo "No changes to commit"
           git push
