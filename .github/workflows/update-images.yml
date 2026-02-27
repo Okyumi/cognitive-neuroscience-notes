@@ -1,0 +1,20 @@
+name: Update trimmed images
+on: workflow_dispatch
+jobs:
+  update-images:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download and extract trimmed images
+        run: |
+          curl -L -o trimmed.zip "https://files.catbox.moe/wbm2vd.zip"
+          rm -rf images/*
+          unzip -o trimmed.zip -d images/
+          rm trimmed.zip
+      - name: Commit updated images
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add images/
+          git commit -m "Update images: trim excess whitespace from 79 images" || echo "No changes"
+          git push
