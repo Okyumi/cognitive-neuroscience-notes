@@ -1,0 +1,33 @@
+name: Upload Images
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  upload-images:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Remove corrupted images
+        run: |
+          rm -rf images/
+          mkdir -p images
+      
+      - name: Download and extract images
+        run: |
+          curl -L -o images.zip "https://sites.pplx.app/sites/proxy/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwcmVmaXgiOiJ3ZWIvZGlyZWN0LWZpbGVzL2NvbXB1dGVyLzhhNjExYmExLWI4Y2ItNDNjMy04MTEzLWYwNGE5YjAyZmVmMCIsInNpZCI6IjhhNjExYmExLWI4Y2ItNDNjMy04MTEzLWYwNGE5YjAyZmVmMCIsImV4cCI6MTc3MjI0MjU0NH0.Q7loOXvrrWkvqzyLbQfUTBEDs-QCWSJgN7MQqWfEMuk/web/direct-files/computer/8a611ba1-b8cb-43c3-8113-f04a9b02fef0/image-host/images.zip"
+          unzip -o images.zip -d images/
+          rm images.zip
+          echo "Images extracted: $(ls images/*.png | wc -l) files"
+      
+      - name: Commit and push images
+        run: |
+          git config user.name "Okyumi"
+          git config user.email "yd2247@nyu.edu"
+          git add images/
+          git commit -m "Add extracted course note images (453 PNG files)"
+          git push
